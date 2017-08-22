@@ -1,4 +1,4 @@
-![Screenshot](images/coreml.png = 200*)
+![ICON](.images/coreml.png =200x)
 
 [![Join the chat at https://gitter.im/norio-nomura/SwiftTalkInJapanese](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Core-ML/Lobby#)
 [![Language](https://awesomelinkcounter.herokuapp.com/swift)]()
@@ -46,5 +46,5 @@ Core ML require macOS 10.13, iOS 11, or tvOS 11. This example project runs only 
 
 Plotting Cross-Validated Predictions (http://scikit-learn.org/stable/auto_examples/plot_cv_predict.html#sphx-glr-auto-examples-plot-cv-predict-py).
 
-![Screenshot](images/LinearRegressor.png = 300x)
+![Screenshot](./images/LinearRegressor.png =300x)
 

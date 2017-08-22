@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		535108881F4C34BE0092393D /* PlotCVPredict.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 535108871F4C34B90092393D /* PlotCVPredict.mlmodel */; };
+		5351B4BD1F4C214300E83498 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5351B4BC1F4C214300E83498 /* AppDelegate.swift */; };
+		5351B4BF1F4C214300E83498 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5351B4BE1F4C214300E83498 /* ViewController.swift */; };
+		5351B4C21F4C214300E83498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5351B4C01F4C214300E83498 /* Main.storyboard */; };
+		5351B4C41F4C214300E83498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5351B4C31F4C214300E83498 /* Assets.xcassets */; };
+		5351B4C71F4C214300E83498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5351B4C51F4C214300E83498 /* LaunchScreen.storyboard */; };
+		5351B4D21F4C214300E83498 /* LinearRegressorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5351B4D11F4C214300E83498 /* LinearRegressorTests.swift */; };
+		5351B4DD1F4C214300E83498 /* LinearRegressorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5351B4DC1F4C214300E83498 /* LinearRegressorUITests.swift */; };
+		5351B4EF1F4C32BF00E83498 /* plot_cv_predict.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5351B4EE1F4C2FE400E83498 /* plot_cv_predict.plist */; };
+		53B893201F4C3A1400F6C315 /* ScatterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B8931F1F4C3A1400F6C315 /* ScatterView.swift */; };
+		7F695BC1E1789D8D9885D5D8 /* Pods_LinearRegressorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC633ED6D2047AFA4E6C3FD /* Pods_LinearRegressorUITests.framework */; };
+		8B10915675191071837CB849 /* Pods_LinearRegressorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FA349E08CD693C710E18D9 /* Pods_LinearRegressorTests.framework */; };
+		8F32A56AD5F089379D9F8EB8 /* Pods_LinearRegressor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713874A792653151354EBBFB /* Pods_LinearRegressor.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5351B4CE1F4C214300E83498 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5351B4B11F4C214300E83498 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5351B4B81F4C214300E83498;
+			remoteInfo = LinearRegressor;
+		};
+		5351B4D91F4C214300E83498 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5351B4B11F4C214300E83498 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5351B4B81F4C214300E83498;
+			remoteInfo = LinearRegressor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F1F218D78B51EC487B68AF9 /* Pods-LinearRegressorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinearRegressorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinearRegressorUITests/Pods-LinearRegressorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2BC6640F25C36D8AA922E51A /* Pods-LinearRegressorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinearRegressorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinearRegressorUITests/Pods-LinearRegressorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DA701AFA4192014180A6EEE /* Pods-LinearRegressor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinearRegressor.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinearRegressor/Pods-LinearRegressor.release.xcconfig"; sourceTree = "<group>"; };
+		37FA349E08CD693C710E18D9 /* Pods_LinearRegressorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinearRegressorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		535108871F4C34B90092393D /* PlotCVPredict.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PlotCVPredict.mlmodel; sourceTree = "<group>"; };
+		5351B4B91F4C214300E83498 /* LinearRegressor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinearRegressor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5351B4BC1F4C214300E83498 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5351B4BE1F4C214300E83498 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5351B4C11F4C214300E83498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5351B4C31F4C214300E83498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5351B4C61F4C214300E83498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5351B4C81F4C214300E83498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5351B4CD1F4C214300E83498 /* LinearRegressorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinearRegressorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5351B4D11F4C214300E83498 /* LinearRegressorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearRegressorTests.swift; sourceTree = "<group>"; };
+		5351B4D31F4C214300E83498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5351B4D81F4C214300E83498 /* LinearRegressorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinearRegressorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5351B4DC1F4C214300E83498 /* LinearRegressorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearRegressorUITests.swift; sourceTree = "<group>"; };
+		5351B4DE1F4C214300E83498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5351B4EE1F4C2FE400E83498 /* plot_cv_predict.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = plot_cv_predict.plist; sourceTree = "<group>"; };
+		53B8931F1F4C3A1400F6C315 /* ScatterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScatterView.swift; sourceTree = "<group>"; };
+		53B893211F4C3FBD00F6C315 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		713874A792653151354EBBFB /* Pods_LinearRegressor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinearRegressor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD6DB0CCD630D290379C717 /* Pods-LinearRegressorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinearRegressorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinearRegressorTests/Pods-LinearRegressorTests.release.xcconfig"; sourceTree = "<group>"; };
+		DC84B1FFAC2DE1E8DD6BE416 /* Pods-LinearRegressor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinearRegressor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinearRegressor/Pods-LinearRegressor.debug.xcconfig"; sourceTree = "<group>"; };
+		E6FDDB387D3552F12DE30500 /* Pods-LinearRegressorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinearRegressorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinearRegressorTests/Pods-LinearRegressorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFC633ED6D2047AFA4E6C3FD /* Pods_LinearRegressorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinearRegressorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5351B4B61F4C214300E83498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F32A56AD5F089379D9F8EB8 /* Pods_LinearRegressor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5351B4CA1F4C214300E83498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B10915675191071837CB849 /* Pods_LinearRegressorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5351B4D51F4C214300E83498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F695BC1E1789D8D9885D5D8 /* Pods_LinearRegressorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		484BD362FCC5EACA5E9FB2BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC84B1FFAC2DE1E8DD6BE416 /* Pods-LinearRegressor.debug.xcconfig */,
+				2DA701AFA4192014180A6EEE /* Pods-LinearRegressor.release.xcconfig */,
+				E6FDDB387D3552F12DE30500 /* Pods-LinearRegressorTests.debug.xcconfig */,
+				8CD6DB0CCD630D290379C717 /* Pods-LinearRegressorTests.release.xcconfig */,
+				2BC6640F25C36D8AA922E51A /* Pods-LinearRegressorUITests.debug.xcconfig */,
+				1F1F218D78B51EC487B68AF9 /* Pods-LinearRegressorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5351B4B01F4C214300E83498 = {
+			isa = PBXGroup;
+			children = (
+				53B893211F4C3FBD00F6C315 /* README.md */,
+				5351B4BB1F4C214300E83498 /* LinearRegressor */,
+				5351B4D01F4C214300E83498 /* LinearRegressorTests */,
+				5351B4DB1F4C214300E83498 /* LinearRegressorUITests */,
+				5351B4BA1F4C214300E83498 /* Products */,
+				484BD362FCC5EACA5E9FB2BB /* Pods */,
+				FA377BC81E0CCCA2A9514AC5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5351B4BA1F4C214300E83498 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5351B4B91F4C214300E83498 /* LinearRegressor.app */,
+				5351B4CD1F4C214300E83498 /* LinearRegressorTests.xctest */,
+				5351B4D81F4C214300E83498 /* LinearRegressorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5351B4BB1F4C214300E83498 /* LinearRegressor */ = {
+			isa = PBXGroup;
+			children = (
+				5351B4BC1F4C214300E83498 /* AppDelegate.swift */,
+				5351B4BE1F4C214300E83498 /* ViewController.swift */,
+				53B8931F1F4C3A1400F6C315 /* ScatterView.swift */,
+				535108871F4C34B90092393D /* PlotCVPredict.mlmodel */,
+				5351B4EE1F4C2FE400E83498 /* plot_cv_predict.plist */,
+				5351B4C01F4C214300E83498 /* Main.storyboard */,
+				5351B4C31F4C214300E83498 /* Assets.xcassets */,
+				5351B4C51F4C214300E83498 /* LaunchScreen.storyboard */,
+				5351B4C81F4C214300E83498 /* Info.plist */,
+			);
+			path = LinearRegressor;
+			sourceTree = "<group>";
+		};
+		5351B4D01F4C214300E83498 /* LinearRegressorTests */ = {
+			isa = PBXGroup;
+			children = (
+				5351B4D11F4C214300E83498 /* LinearRegressorTests.swift */,
+				5351B4D31F4C214300E83498 /* Info.plist */,
+			);
+			path = LinearRegressorTests;
+			sourceTree = "<group>";
+		};
+		5351B4DB1F4C214300E83498 /* LinearRegressorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5351B4DC1F4C214300E83498 /* LinearRegressorUITests.swift */,
+				5351B4DE1F4C214300E83498 /* Info.plist */,
+			);
+			path = LinearRegressorUITests;
+			sourceTree = "<group>";
+		};
+		FA377BC81E0CCCA2A9514AC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				713874A792653151354EBBFB /* Pods_LinearRegressor.framework */,
+				37FA349E08CD693C710E18D9 /* Pods_LinearRegressorTests.framework */,
+				EFC633ED6D2047AFA4E6C3FD /* Pods_LinearRegressorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5351B4B81F4C214300E83498 /* LinearRegressor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5351B4E11F4C214300E83498 /* Build configuration list for PBXNativeTarget "LinearRegressor" */;
+			buildPhases = (
+				70FA98F038AA047381667AA4 /* [CP] Check Pods Manifest.lock */,
+				5351B4B51F4C214300E83498 /* Sources */,
+				5351B4B61F4C214300E83498 /* Frameworks */,
+				5351B4B71F4C214300E83498 /* Resources */,
+				0BD6CA9AF6D62B379509928D /* [CP] Embed Pods Frameworks */,
+				2DE06CECE1262C0F94DE18D0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinearRegressor;
+			productName = LinearRegressor;
+			productReference = 5351B4B91F4C214300E83498 /* LinearRegressor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5351B4CC1F4C214300E83498 /* LinearRegressorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5351B4E41F4C214300E83498 /* Build configuration list for PBXNativeTarget "LinearRegressorTests" */;
+			buildPhases = (
+				5DD89EC2E5239AACE06427EE /* [CP] Check Pods Manifest.lock */,
+				5351B4C91F4C214300E83498 /* Sources */,
+				5351B4CA1F4C214300E83498 /* Frameworks */,
+				5351B4CB1F4C214300E83498 /* Resources */,
+				E575B113C8513FEF445A9A81 /* [CP] Embed Pods Frameworks */,
+				9051CA834B22C0DC84219EA9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5351B4CF1F4C214300E83498 /* PBXTargetDependency */,
+			);
+			name = LinearRegressorTests;
+			productName = LinearRegressorTests;
+			productReference = 5351B4CD1F4C214300E83498 /* LinearRegressorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5351B4D71F4C214300E83498 /* LinearRegressorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5351B4E71F4C214300E83498 /* Build configuration list for PBXNativeTarget "LinearRegressorUITests" */;
+			buildPhases = (
+				3A7939F0F84FCE2C14D9FCE4 /* [CP] Check Pods Manifest.lock */,
+				5351B4D41F4C214300E83498 /* Sources */,
+				5351B4D51F4C214300E83498 /* Frameworks */,
+				5351B4D61F4C214300E83498 /* Resources */,
+				AD73F39EFFC1CBA24B666904 /* [CP] Embed Pods Frameworks */,
+				3501A746B75B1D40F8215A18 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5351B4DA1F4C214300E83498 /* PBXTargetDependency */,
+			);
+			name = LinearRegressorUITests;
+			productName = LinearRegressorUITests;
+			productReference = 5351B4D81F4C214300E83498 /* LinearRegressorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5351B4B11F4C214300E83498 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Thywis inc.";
+				TargetAttributes = {
+					5351B4B81F4C214300E83498 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					5351B4CC1F4C214300E83498 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 5351B4B81F4C214300E83498;
+					};
+					5351B4D71F4C214300E83498 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 5351B4B81F4C214300E83498;
+					};
+				};
+			};
+			buildConfigurationList = 5351B4B41F4C214300E83498 /* Build configuration list for PBXProject "LinearRegressor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5351B4B01F4C214300E83498;
+			productRefGroup = 5351B4BA1F4C214300E83498 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5351B4B81F4C214300E83498 /* LinearRegressor */,
+				5351B4CC1F4C214300E83498 /* LinearRegressorTests */,
+				5351B4D71F4C214300E83498 /* LinearRegressorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5351B4B71F4C214300E83498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5351B4EF1F4C32BF00E83498 /* plot_cv_predict.plist in Resources */,
+				5351B4C71F4C214300E83498 /* LaunchScreen.storyboard in Resources */,
+				5351B4C41F4C214300E83498 /* Assets.xcassets in Resources */,
+				5351B4C21F4C214300E83498 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5351B4CB1F4C214300E83498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5351B4D61F4C214300E83498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BD6CA9AF6D62B379509928D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinearRegressor/Pods-LinearRegressor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DE06CECE1262C0F94DE18D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinearRegressor/Pods-LinearRegressor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3501A746B75B1D40F8215A18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinearRegressorUITests/Pods-LinearRegressorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A7939F0F84FCE2C14D9FCE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DD89EC2E5239AACE06427EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70FA98F038AA047381667AA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9051CA834B22C0DC84219EA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinearRegressorTests/Pods-LinearRegressorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD73F39EFFC1CBA24B666904 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinearRegressorUITests/Pods-LinearRegressorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E575B113C8513FEF445A9A81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinearRegressorTests/Pods-LinearRegressorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5351B4B51F4C214300E83498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				535108881F4C34BE0092393D /* PlotCVPredict.mlmodel in Sources */,
+				53B893201F4C3A1400F6C315 /* ScatterView.swift in Sources */,
+				5351B4BF1F4C214300E83498 /* ViewController.swift in Sources */,
+				5351B4BD1F4C214300E83498 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5351B4C91F4C214300E83498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5351B4D21F4C214300E83498 /* LinearRegressorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5351B4D41F4C214300E83498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5351B4DD1F4C214300E83498 /* LinearRegressorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5351B4CF1F4C214300E83498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5351B4B81F4C214300E83498 /* LinearRegressor */;
+			targetProxy = 5351B4CE1F4C214300E83498 /* PBXContainerItemProxy */;
+		};
+		5351B4DA1F4C214300E83498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5351B4B81F4C214300E83498 /* LinearRegressor */;
+			targetProxy = 5351B4D91F4C214300E83498 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5351B4C01F4C214300E83498 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5351B4C11F4C214300E83498 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5351B4C51F4C214300E83498 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5351B4C61F4C214300E83498 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5351B4DF1F4C214300E83498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5351B4E01F4C214300E83498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5351B4E21F4C214300E83498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC84B1FFAC2DE1E8DD6BE416 /* Pods-LinearRegressor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BW259GUV6N;
+				INFOPLIST_FILE = LinearRegressor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thywis.LinearRegressor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5351B4E31F4C214300E83498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DA701AFA4192014180A6EEE /* Pods-LinearRegressor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BW259GUV6N;
+				INFOPLIST_FILE = LinearRegressor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thywis.LinearRegressor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5351B4E51F4C214300E83498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6FDDB387D3552F12DE30500 /* Pods-LinearRegressorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BW259GUV6N;
+				INFOPLIST_FILE = LinearRegressorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thywis.LinearRegressorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinearRegressor.app/LinearRegressor";
+			};
+			name = Debug;
+		};
+		5351B4E61F4C214300E83498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CD6DB0CCD630D290379C717 /* Pods-LinearRegressorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BW259GUV6N;
+				INFOPLIST_FILE = LinearRegressorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thywis.LinearRegressorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinearRegressor.app/LinearRegressor";
+			};
+			name = Release;
+		};
+		5351B4E81F4C214300E83498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BC6640F25C36D8AA922E51A /* Pods-LinearRegressorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BW259GUV6N;
+				INFOPLIST_FILE = LinearRegressorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thywis.LinearRegressorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LinearRegressor;
+			};
+			name = Debug;
+		};
+		5351B4E91F4C214300E83498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F1F218D78B51EC487B68AF9 /* Pods-LinearRegressorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BW259GUV6N;
+				INFOPLIST_FILE = LinearRegressorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thywis.LinearRegressorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LinearRegressor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5351B4B41F4C214300E83498 /* Build configuration list for PBXProject "LinearRegressor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5351B4DF1F4C214300E83498 /* Debug */,
+				5351B4E01F4C214300E83498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5351B4E11F4C214300E83498 /* Build configuration list for PBXNativeTarget "LinearRegressor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5351B4E21F4C214300E83498 /* Debug */,
+				5351B4E31F4C214300E83498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5351B4E41F4C214300E83498 /* Build configuration list for PBXNativeTarget "LinearRegressorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5351B4E51F4C214300E83498 /* Debug */,
+				5351B4E61F4C214300E83498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5351B4E71F4C214300E83498 /* Build configuration list for PBXNativeTarget "LinearRegressorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5351B4E81F4C214300E83498 /* Debug */,
+				5351B4E91F4C214300E83498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5351B4B11F4C214300E83498 /* Project object */;
+}

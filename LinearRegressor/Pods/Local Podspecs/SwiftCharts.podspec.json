@@ -1,0 +1,30 @@
+{
+  "name": "SwiftCharts",
+  "version": "0.6",
+  "summary": "Easy to use and highly customizable charts library for iOS",
+  "homepage": "https://github.com/i-schuetz/SwiftCharts",
+  "license": {
+    "type": "Apache License, Version 2.0",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ivan Schuetz": "ivanschuetz@gmail.com"
+  },
+  "platforms": {
+    "ios": "8.0",
+    "tvos": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/i-schuetz/SwiftCharts.git",
+    "tag": "0.6"
+  },
+  "source_files": [
+    "SwiftCharts/*.swift",
+    "SwiftCharts/**/*.swift"
+  ],
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "CoreGraphics"
+  ]
+}

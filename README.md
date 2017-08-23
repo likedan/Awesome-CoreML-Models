@@ -1,7 +1,8 @@
 <img src="images/coreml.png" width="150" height="150"/>
 
-# Core ML Resources
+# Core ML Models
 
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Join the chat at https://gitter.im/norio-nomura/SwiftTalkInJapanese](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Core-ML/Lobby#)
 [![Language](https://awesomelinkcounter.herokuapp.com/swift)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)

@@ -20,9 +20,9 @@
 * [FlickrStyle](https://github.com/SwiftBrain/awesome-CoreML-models) Detect the artistic style of images
 * [Gender Detectorv](https://github.com/cocoa-ai/NamesCoreMLDemo) Detect whether a name is for male or female
 
-
 ## Sample Applications
 
+* [Linear Regressor Example](https://github.com/likedan/CoreML-Linear-Regression)
 * [MobileNet with CoreML](https://github.com/hollance/MobileNet-CoreML)
 * [Core-ML-Sample](https://github.com/atomic14/VisionCoreMLSample)
 * [CoreML-with-ARkit](https://github.com/hanleyweng/CoreML-in-ARKit)
@@ -33,19 +33,3 @@
 * [Apple CoreML model conversion](http://stsievert.com/blog/2017/06/11/coreml/) How to convert a model to CoreML
 * [Core ML and Vision Framework on iOS 11](http://yulingtianxia.com/blog/2017/06/19/Core-ML-and-Vision-Framework-on-iOS-11/)
 CoreML overview and reviews in Chinese
-
-
-# Core ML verson of Scikit Learn Examples
-
-This is a swift 4 implementation of General Examples on Scikit Learn. The data used to generate the Core ML Model is taken from Scikit Learn.
-
-## Compatibility
-
-Core ML require macOS 10.13, iOS 11, or tvOS 11. This example project runs only in iOS 11.
-
-## LinearRegressor
-
-Plotting Cross-Validated Predictions (http://scikit-learn.org/stable/auto_examples/plot_cv_predict.html#sphx-glr-auto-examples-plot-cv-predict-py).
-
-<img src="images/LinearRegressor.png" width="320" height="640"/>
-

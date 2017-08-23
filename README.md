@@ -18,6 +18,7 @@ There are many Core ML examples available, but very few unique models. With this
 * [FacesVisionDemo](https://github.com/cocoa-ai/FacesVisionDemo) - Recognize age, gender and emotion from images of faces.
 * [MNIST](https://github.com/ph1ps/MNIST-CoreML) - Predict handwritten (drawn) digits from images.
 * [Sentiment Polarity](https://github.com/cocoa-ai/SentimentCoreMLDemo) - Predict positive or negative sentiments from sentences.
+* [Nested Edge Detection](https://github.com/s1ddok/HED-CoreML) - Detect edges from a color image.
 * [SentimentVision](https://github.com/cocoa-ai/SentimentVisionDemo) - Predict positive or negative sentiments from images.
 * [Food101](https://github.com/ph1ps/Food101-CoreML) - Predict the type of foods from images.
 * [Oxford102](https://github.com/cocoa-ai/FlowersVisionDemo) - Detect the type of flowers from images.

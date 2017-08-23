@@ -7,9 +7,11 @@
 [![Language](https://awesomelinkcounter.herokuapp.com/swift)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-[Core ML](https://developer.apple.com/machine-learning/) brings Artificial Intelligence and iOS ever closer. However, there are few Core ML models and examples currently available. With this repo, we collect the largest list of available CoreML models, examples apps and tutorials. If you're working on a Core ML framework and is willing to share it with people, feel free to pin us on [Gitter Channel](https://gitter.im/Core-ML/Lobby#) to get added here.
+There are many Core ML examples available, but very few unique models. With this repo, we collect the largest list of available CoreML models, so developer can experiment machine learning techniques. If you've converted a Core ML model and is willing to share it with people, feel free to submit a PR here.
 
 ## Models
+
+*Collections of Core ML models*
 * [Apple](https://developer.apple.com/machine-learning/) Apple provided 6 examples models for Core ML(MobileNet, SqueezeNet, Places205-GoogLeNet, ResNet50, Inception v3, VGG16).
 * [Car Recognition](https://github.com/likedan/Core-ML-Car-Recognition) Recognize the car models from images.
 * [YOLO](https://github.com/hollance/YOLO-CoreML-MPSNNGraph) Recognize what the objects are inside a given image and also where they are in the image.
@@ -20,18 +22,14 @@
 * [Food101](https://github.com/ph1ps/Food101-CoreML) Predict the type of foods from images.
 * [Oxford102](https://github.com/cocoa-ai/FlowersVisionDemo) Detect the type of flowers from images.
 * [FlickrStyle](https://github.com/SwiftBrain/awesome-CoreML-models) Detect the artistic style of images.
-* [Gender Detectorv](https://github.com/cocoa-ai/NamesCoreMLDemo) Detect whether a name is for male or female.
+* [Gender Detector](https://github.com/cocoa-ai/NamesCoreMLDemo) Detect whether a name is for male or female.
+* [Linear Regressor from Sklearn](https://github.com/likedan/CoreML-Linear-Regression) A linear regression model from Sklearn Example
 
-## Sample Applications
 
-* [Linear Regressor Example](https://github.com/likedan/CoreML-Linear-Regression)
-* [MobileNet with CoreML](https://github.com/hollance/MobileNet-CoreML)
-* [Core-ML-Sample](https://github.com/atomic14/VisionCoreMLSample)
-* [CoreML-with-ARkit](https://github.com/hanleyweng/CoreML-in-ARKit)
+## The gold
+*Collections of machine learning models that could be converted to Core ML*
 
-## Tutorials
-
-* [Machine Learning in iOS Using Core ML](https://www.bignerdranch.com/blog/machine-learning-in-ios-using-core-ml/) Went through the entire cycle of generating a CoreML model with python with an example of Linear Regression.
-* [Apple CoreML model conversion](http://stsievert.com/blog/2017/06/11/coreml/) How to convert a model to CoreML
-* [Core ML and Vision Framework on iOS 11](http://yulingtianxia.com/blog/2017/06/19/Core-ML-and-Vision-Framework-on-iOS-11/)
-CoreML overview and reviews in Chinese
+* [Caffe Model Zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo) - Big list of models in Caffe format.
+* [TensorFlow Models](https://github.com/tensorflow/models) - Models for TensorFlow.
+* [TensorFlow Slim Models](https://github.com/tensorflow/models/blob/master/slim/README.md) - Another collection of TensorFlow Models.
+* [Core ML Models](https://developer.apple.com/machine-learning/) - A few models in Core ML format.

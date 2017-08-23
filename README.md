@@ -1,5 +1,4 @@
-![ICON](.images/coreml.png =200x)
-
+<img src="images/coreml.png" width="150" height="150"/>
 [![Join the chat at https://gitter.im/norio-nomura/SwiftTalkInJapanese](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Core-ML/Lobby#)
 [![Language](https://awesomelinkcounter.herokuapp.com/swift)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
@@ -7,18 +6,13 @@
 # Core ML Resources
 
 ## Intro
-Core ML(https://developer.apple.com/machine-learning/) brings Artificial Intelligence and iOS ever closer. However, there are few Core ML resources and examples currently available. With this repo, we start collecting great CoreML models, examples apps, frameworks and tutorials. If you're working on new cool projects related to Core ML, feel free to pin us on [Gitter Channel](https://gitter.im/Core-ML/Lobby#) to get added here.
-
-## Content
-- [Intro](#intro)
-- [Models](#Models)
-- [Sample Applications](#Sample-Applications)
-- [Tutorials](#Tutorials)
+[Core ML](https://developer.apple.com/machine-learning/) brings Artificial Intelligence and iOS ever closer. However, there are few Core ML resources and examples currently available. With this repo, we start collecting great CoreML models, examples apps, frameworks and tutorials. If you're working on a Core ML framework and is willing to share it with people, feel free to pin us on [Gitter Channel](https://gitter.im/Core-ML/Lobby#) to get added here.
 
 ## Models
 * [Apple](https://developer.apple.com/machine-learning/) Apple provided 6 examples models for Core ML(MobileNet, SqueezeNet, Places205-GoogLeNet, ResNet50, Inception v3, VGG16).
 * [YOLO](https://github.com/hollance/YOLO-CoreML-MPSNNGraph) Recognize what the objects are inside a given image and also where they are in the image
 * [MNIST](https://github.com/ph1ps/MNIST-CoreML) Predict handwritten (drawn) digits from an image and outputs a prediction from 0-9
+* [Sentiment Polarity](https://github.com/cocoa-ai/SentimentCoreMLDemo) Distinguish between sentences with positive and negative sentiments
 
 ## Sample Applications
 
@@ -46,5 +40,5 @@ Core ML require macOS 10.13, iOS 11, or tvOS 11. This example project runs only 
 
 Plotting Cross-Validated Predictions (http://scikit-learn.org/stable/auto_examples/plot_cv_predict.html#sphx-glr-auto-examples-plot-cv-predict-py).
 
-![Screenshot](./images/LinearRegressor.png =300x)
+<img src="images/LinearRegressor.png" width="320" height="640"/>
 

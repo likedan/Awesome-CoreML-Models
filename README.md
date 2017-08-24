@@ -12,7 +12,11 @@ There are many Core ML examples available, but very few unique models. With this
 ## Models
 
 *Collections of unique Core ML models*
-* [Apple](https://developer.apple.com/machine-learning/) - Apple provided 6 examples models for Core ML(MobileNet, SqueezeNet, Places205-GoogLeNet, ResNet50, Inception v3, VGG16).
+* [MobileNet](https://github.com/hollance/MobileNet-CoreML) - Detects the dominant objects present in an image.
+* [Places205-GoogLeNet](https://github.com/chenyi1989/CoreMLDemo) - Detects the scene of an image from 205 categories such as bedroom, forest, coast etc.
+* [Inception v3](https://github.com/yulingtianxia/Core-ML-Sample) - Detects the dominant objects present in an image.
+* [ResNet50](https://github.com/ytakzk/CoreML-samples) - Detects the dominant objects present in an image.
+* [VGG16](https://github.com/alaphao/CoreMLExample) - Detects the dominant objects present in an image.
 * [Car Recognition](https://github.com/likedan/Core-ML-Car-Recognition) - Recognize the car models from images.
 * [YOLO](https://github.com/hollance/YOLO-CoreML-MPSNNGraph) - Recognize what the objects are inside a given image and also where they are in the image.
 * [FacesVisionDemo](https://github.com/cocoa-ai/FacesVisionDemo) - Recognize age, gender and emotion from images of faces.
@@ -24,9 +28,8 @@ There are many Core ML examples available, but very few unique models. With this
 * [Oxford102](https://github.com/cocoa-ai/FlowersVisionDemo) - Detect the type of flowers from images.
 * [FlickrStyle](https://github.com/SwiftBrain/awesome-CoreML-models) - Detect the artistic style of images.
 * [Gender Detector](https://github.com/cocoa-ai/NamesCoreMLDemo) - Detect whether a name is for male or female.
-* [Linear Regressor from Sklearn](https://github.com/likedan/CoreML-Linear-Regression) - A linear regression model from Sklearn Example
 * [Artists Recommendation](https://github.com/agnosticdev/Blog-Examples/tree/master/UsingCoreMLtoCreateASongRecommendationEngine) - Recommend a artist based on given location and genre.
-
+* [Linear Regressor from Sklearn](https://github.com/likedan/CoreML-Linear-Regression) - A linear regression model from Sklearn examples.
 
 ## The gold
 *Collections of machine learning models that could be converted to Core ML*

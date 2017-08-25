@@ -17,8 +17,10 @@ There are many Core ML examples available, but very few unique models. With this
 * **VGG16** - Detects the dominant objects present in an image. [Model](https://docs-assets.developer.apple.com/coreml/models/VGG16.mlmodel)  | [Demo](https://github.com/alaphao/CoreMLExample) | [Reference](https://arxiv.org/abs/1409.1556)
 * **Car Recognition** - Detects the dominant objects present in an image. [Model](https://github.com/likedan/Core-ML-Car-Recognition/blob/master/Convert/googlenet_finetune_web_car.caffemodel)  | [Demo](https://github.com/likedan/Core-ML-Car-Recognition) | [Reference](http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html)
 * **YOLO** - Recognize what the objects are inside a given image and also where they are in the image. [Model](https://github.com/hollance/YOLO-CoreML-MPSNNGraph/blob/master/TinyYOLO-CoreML/TinyYOLO-CoreML/TinyYOLO.mlmodel)  | [Demo](https://github.com/hollance/YOLO-CoreML-MPSNNGraph) | [Reference](http://machinethink.net/blog/object-detection-with-yolo/)
+* **Age Predictor** - Predict a person's age from one's portrait. [Model](https://drive.google.com/file/d/0B1ghKa_MYL6mT1J3T1BEeWx4TWc/view?usp=sharingl)  | [Demo](https://github.com/cocoa-ai/FacesVisionDemo) | [Reference](http://www.openu.ac.il/home/hassner/projects/cnn_agegender/)
+* **Gender Predictor** - Predict a person's gender from one's portrait. [Model](https://drive.google.com/file/d/0B1ghKa_MYL6mYkNsZHlyc2ZuaFk/view?usp=sharing)  | [Demo](https://github.com/cocoa-ai/FacesVisionDemo) | [Reference](http://www.openu.ac.il/home/hassner/projects/cnn_agegender/)
+* **Emotion Predictor** - Predict a person's emotion from one's portrait. [Model](https://drive.google.com/file/d/0B1ghKa_MYL6mTlYtRGdXNFlpWDQ/view?usp=sharing)  | [Demo](https://github.com/cocoa-ai/FacesVisionDemo) | [Reference](http://www.openu.ac.il/home/hassner/projects/cnn_emotions/)
 
-* [FacesVisionDemo](https://github.com/cocoa-ai/FacesVisionDemo) - Recognize age, gender and emotion from images of faces.
 * [MNIST](https://github.com/ph1ps/MNIST-CoreML) - Predict handwritten (drawn) digits from images.
 * [Sentiment Polarity](https://github.com/cocoa-ai/SentimentCoreMLDemo) - Predict positive or negative sentiments from sentences.
 * [Nested Edge Detection](https://github.com/s1ddok/HED-CoreML) - Detect edges from a color image.

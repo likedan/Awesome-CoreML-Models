@@ -4,7 +4,7 @@ Please ensure your pull request adheres to the following guidelines:
 
 - Search previous suggestions before making a new one, as yours may be a duplicate.
 - **Make an individual pull request for each suggestion.**
-- Use the following format: `**Model Name** DESCRIPTION. [DEMO](LINK) [DOWNLOAD](LINK)`
+- Use the following format: `**Model Name** - Short understandable description of what the model does. [Model](LINK) | [Demo](LINK) | [Reference](LINK)`. (Reference is optional)
 - Keep descriptions short and simple, but descriptive.
 - End all descriptions with a full stop/period.
 - Check your spelling and grammar.

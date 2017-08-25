@@ -10,7 +10,7 @@ There are many Core ML examples available, but very few unique models. With this
 ## Models
 *Collections of unique Core ML models*
 
-* **MobileNet** Detects the dominant objects present in an image. [Demo](https://github.com/hollance/MobileNet-CoreML) | [Model](https://github.com/hollance/MobileNet-CoreML/raw/master/MobileNet.mlmodel) | [Reference](https://arxiv.org/abs/1704.04861)
+* **MobileNet** - Detects the dominant objects present in an image. [Demo](https://github.com/hollance/MobileNet-CoreML) | [Model](https://github.com/hollance/MobileNet-CoreML/raw/master/MobileNet.mlmodel) | [Reference](https://arxiv.org/abs/1704.04861)
 * [Places205-GoogLeNet](https://github.com/chenyi1989/CoreMLDemo) - Detects the scene of an image from 205 categories such as bedroom, forest, coast etc.
 * [Inception v3](https://github.com/yulingtianxia/Core-ML-Sample) - Detects the dominant objects present in an image.
 * [ResNet50](https://github.com/ytakzk/CoreML-samples) - Detects the dominant objects present in an image.

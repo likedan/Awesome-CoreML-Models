@@ -8,8 +8,8 @@
 There are many Core ML examples available, but very few unique models. With this repo, we collect the largest list of unique CoreML models, so developer can experiment machine learning techniques. If you've converted a Core ML model and is willing to share it with people, feel free to submit a PR here.
 
 ## Models
-
 *Collections of unique Core ML models*
+
 * **MobileNet** Detects the dominant objects present in an image. [DEMO](https://github.com/hollance/MobileNet-CoreML) [DOWNLOAD](https://github.com/hollance/MobileNet-CoreML/raw/master/MobileNet.mlmodel)
 * [Places205-GoogLeNet](https://github.com/chenyi1989/CoreMLDemo) - Detects the scene of an image from 205 categories such as bedroom, forest, coast etc.
 * [Inception v3](https://github.com/yulingtianxia/Core-ML-Sample) - Detects the dominant objects present in an image.
@@ -29,9 +29,13 @@ There are many Core ML examples available, but very few unique models. With this
 * [Artists Recommendation](https://github.com/agnosticdev/Blog-Examples/tree/master/UsingCoreMLtoCreateASongRecommendationEngine) - Recommend a artist based on given location and genre.
 * [Linear Regressor from Sklearn](https://github.com/likedan/CoreML-Linear-Regression) - A linear regression model from Sklearn examples.
 
-## The gold
+## The Gold
 *Collections of machine learning models that could be converted to Core ML*
 
 * [Caffe Model Zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo) - Big list of models in Caffe format.
 * [TensorFlow Models](https://github.com/tensorflow/models) - Models for TensorFlow.
 * [TensorFlow Slim Models](https://github.com/tensorflow/models/blob/master/slim/README.md) - Another collection of TensorFlow Models.
+
+## Contributing and License
+* [See the guide](https://github.com/likedan/Awesome-CoreML-Models/blob/master/.github/CONTRIBUTING.md)
+* Distributed under the MIT license. See LICENSE for more information.

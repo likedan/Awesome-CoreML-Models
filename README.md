@@ -16,11 +16,8 @@ There are many Core ML examples available, but very few unique models. With this
 * **ResNet50** - Detects the dominant objects present in an image. [Model](https://github.com/ytakzk/CoreML-samples/blob/master/CoreML-samples/Resnet50.mlmodel)  | [Demo](https://github.com/ytakzk/CoreML-samples) | [Reference](https://arxiv.org/abs/1512.03385)
 * **VGG16** - Detects the dominant objects present in an image. [Model](https://docs-assets.developer.apple.com/coreml/models/VGG16.mlmodel)  | [Demo](https://github.com/alaphao/CoreMLExample) | [Reference](https://arxiv.org/abs/1409.1556)
 * **Car Recognition** - Detects the dominant objects present in an image. [Model](https://github.com/likedan/Core-ML-Car-Recognition/blob/master/Convert/googlenet_finetune_web_car.caffemodel)  | [Demo](https://github.com/likedan/Core-ML-Car-Recognition) | [Reference](http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html)
+* **YOLO** - Recognize what the objects are inside a given image and also where they are in the image. [Model](https://github.com/hollance/YOLO-CoreML-MPSNNGraph/blob/master/TinyYOLO-CoreML/TinyYOLO-CoreML/TinyYOLO.mlmodel)  | [Demo](https://github.com/hollance/YOLO-CoreML-MPSNNGraph) | [Reference](http://machinethink.net/blog/object-detection-with-yolo/)
 
-* [Car Recognition](https://github.com/likedan/Core-ML-Car-Recognition) - Recognize the car models from images.
-
-* [Car Recognition](https://github.com/likedan/Core-ML-Car-Recognition) - Recognize the car models from images.
-* [YOLO](https://github.com/hollance/YOLO-CoreML-MPSNNGraph) - Recognize what the objects are inside a given image and also where they are in the image.
 * [FacesVisionDemo](https://github.com/cocoa-ai/FacesVisionDemo) - Recognize age, gender and emotion from images of faces.
 * [MNIST](https://github.com/ph1ps/MNIST-CoreML) - Predict handwritten (drawn) digits from images.
 * [Sentiment Polarity](https://github.com/cocoa-ai/SentimentCoreMLDemo) - Predict positive or negative sentiments from sentences.

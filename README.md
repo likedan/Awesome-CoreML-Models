@@ -10,9 +10,9 @@ There are many Core ML examples available, but very few unique models. With this
 ## Models
 *Collections of unique Core ML models*
 
-* **MobileNet** - Detects the dominant objects present in an image. [Demo](https://github.com/hollance/MobileNet-CoreML) | [Model](https://github.com/hollance/MobileNet-CoreML/raw/master/MobileNet.mlmodel) | [Reference](https://arxiv.org/abs/1704.04861)
-* [Places205-GoogLeNet](https://github.com/chenyi1989/CoreMLDemo) - Detects the scene of an image from 205 categories such as bedroom, forest, coast etc.
-* [Inception v3](https://github.com/yulingtianxia/Core-ML-Sample) - Detects the dominant objects present in an image.
+* **MobileNet** - Detects the dominant objects present in an image. [Model](https://github.com/hollance/MobileNet-CoreML/raw/master/MobileNet.mlmodel)  | [Demo](https://github.com/hollance/MobileNet-CoreML) | [Reference](https://arxiv.org/abs/1704.04861)
+* **Places CNN** - Detects the scene of an image from 205 categories such as bedroom, forest, coast etc. [Model](https://github.com/chenyi1989/CoreMLDemo/blob/master/CoreMLDemo/GoogLeNetPlaces.mlmodel)  | [Demo](https://github.com/chenyi1989/CoreMLDemo) | [Reference](http://places.csail.mit.edu/index.html)
+* **Inception v3** - Detects the dominant objects present in an image. [Model](https://github.com/chenyi1989/CoreMLDemo/blob/master/CoreMLDemo/GoogLeNetPlaces.mlmodel)  | [Demo](https://github.com/yulingtianxia/Core-ML-Sample/blob/master/CoreMLSample/Inceptionv3.mlmodel) | [Reference](https://arxiv.org/abs/1512.00567)
 * [ResNet50](https://github.com/ytakzk/CoreML-samples) - Detects the dominant objects present in an image.
 * [VGG16](https://github.com/alaphao/CoreMLExample) - Detects the dominant objects present in an image.
 * [Car Recognition](https://github.com/likedan/Core-ML-Car-Recognition) - Recognize the car models from images.

@@ -12,9 +12,13 @@ There are many Core ML examples available, but very few unique models. With this
 
 * **MobileNet** - Detects the dominant objects present in an image. [Model](https://github.com/hollance/MobileNet-CoreML/raw/master/MobileNet.mlmodel)  | [Demo](https://github.com/hollance/MobileNet-CoreML) | [Reference](https://arxiv.org/abs/1704.04861)
 * **Places CNN** - Detects the scene of an image from 205 categories such as bedroom, forest, coast etc. [Model](https://github.com/chenyi1989/CoreMLDemo/blob/master/CoreMLDemo/GoogLeNetPlaces.mlmodel)  | [Demo](https://github.com/chenyi1989/CoreMLDemo) | [Reference](http://places.csail.mit.edu/index.html)
-* **Inception v3** - Detects the dominant objects present in an image. [Model](https://github.com/chenyi1989/CoreMLDemo/blob/master/CoreMLDemo/GoogLeNetPlaces.mlmodel)  | [Demo](https://github.com/yulingtianxia/Core-ML-Sample/blob/master/CoreMLSample/Inceptionv3.mlmodel) | [Reference](https://arxiv.org/abs/1512.00567)
-* [ResNet50](https://github.com/ytakzk/CoreML-samples) - Detects the dominant objects present in an image.
-* [VGG16](https://github.com/alaphao/CoreMLExample) - Detects the dominant objects present in an image.
+* **Inception v3** - Detects the dominant objects present in an image. [Model](https://github.com/yulingtianxia/Core-ML-Sample/)  | [Demo](https://github.com/yulingtianxia/Core-ML-Sample/blob/master/CoreMLSample/Inceptionv3.mlmodel) | [Reference](https://arxiv.org/abs/1512.00567)
+* **ResNet50** - Detects the dominant objects present in an image. [Model](https://github.com/ytakzk/CoreML-samples/blob/master/CoreML-samples/Resnet50.mlmodel)  | [Demo](https://github.com/ytakzk/CoreML-samples) | [Reference](https://arxiv.org/abs/1512.03385)
+* **VGG16** - Detects the dominant objects present in an image. [Model](https://docs-assets.developer.apple.com/coreml/models/VGG16.mlmodel)  | [Demo](https://github.com/alaphao/CoreMLExample) | [Reference](https://arxiv.org/abs/1409.1556)
+* **Car Recognition** - Detects the dominant objects present in an image. [Model](https://github.com/likedan/Core-ML-Car-Recognition/blob/master/Convert/googlenet_finetune_web_car.caffemodel)  | [Demo](https://github.com/likedan/Core-ML-Car-Recognition) | [Reference](http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html)
+
+* [Car Recognition](https://github.com/likedan/Core-ML-Car-Recognition) - Recognize the car models from images.
+
 * [Car Recognition](https://github.com/likedan/Core-ML-Car-Recognition) - Recognize the car models from images.
 * [YOLO](https://github.com/hollance/YOLO-CoreML-MPSNNGraph) - Recognize what the objects are inside a given image and also where they are in the image.
 * [FacesVisionDemo](https://github.com/cocoa-ai/FacesVisionDemo) - Recognize age, gender and emotion from images of faces.

@@ -28,7 +28,7 @@ There are many Core ML examples available, but very few unique models. With this
 * **Oxford102** - Detect the type of flowers from images. [Model](https://drive.google.com/file/d/0B1ghKa_MYL6meDBHT2NaZGxkNzQ/view?usp=sharing)  | [Demo](https://github.com/cocoa-ai/FlowersVisionDemo) | [Reference](http://jimgoo.com/flower-power/)
 * **FlickrStyle** - Detect the artistic style of images. [Model](https://drive.google.com/file/d/0B1ghKa_MYL6meDBHT2NaZGxkNzQ/view?usp=sharing)  | [Demo](https://github.com/SwiftBrain/awesome-CoreML-models) | [Reference](http://sergeykarayev.com/files/1311.3715v3.pdf)
 * **NamesDT** - Predict whether a name is for male or female. [Model](https://github.com/cocoa-ai/NamesCoreMLDemo/raw/master/Names/Resources/NamesDT.mlmodel)  | [Demo](https://github.com/cocoa-ai/NamesCoreMLDemo) | [Reference](http://nlpforhackers.io/introduction-machine-learning/)
-* **Artists Recommendation** - Recommend a artist based on given location and genre. [Model](https://github.com/agnosticdev/Blog-Examples/blob/master/UsingCoreMLtoCreateASongRecommendationEngine/Artist.mlmodel)  | [Demo](https://github.com/agnosticdev/Blog-Examples/tree/master/UsingCoreMLtoCreateASongRecommendationEngine) | [Reference](http://nlpforhackers.io/introduction-machine-learning/)
+* **Artists Recommendation** - Recommend a artist based on given location and genre. [Model](https://github.com/agnosticdev/Blog-Examples/blob/master/UsingCoreMLtoCreateASongRecommendationEngine/Artist.mlmodel)  | [Demo](https://github.com/agnosticdev/Blog-Examples/tree/master/UsingCoreMLtoCreateASongRecommendationEngine)
 
 ## The Gold
 *Collections of machine learning models that could be converted to Core ML*

@@ -29,6 +29,7 @@ There are many Core ML examples available, but very few unique models. With this
 * **FlickrStyle** - Detect the artistic style of images. [Download](https://drive.google.com/file/d/0B1ghKa_MYL6meDBHT2NaZGxkNzQ/view?usp=sharing)  | [Demo](https://github.com/SwiftBrain/awesome-CoreML-models) | [Reference](http://sergeykarayev.com/files/1311.3715v3.pdf)
 * **NamesDT** - Predict whether a name is for male or female. [Download](https://github.com/cocoa-ai/NamesCoreMLDemo/raw/master/Names/Resources/NamesDT.mlmodel)  | [Demo](https://github.com/cocoa-ai/NamesCoreMLDemo) | [Reference](http://nlpforhackers.io/introduction-machine-learning/)
 * **Artists Recommendation** - Recommend a artist based on given location and genre. [Download](https://github.com/agnosticdev/Blog-Examples/blob/master/UsingCoreMLtoCreateASongRecommendationEngine/Artist.mlmodel)  | [Demo](https://github.com/agnosticdev/Blog-Examples/tree/master/UsingCoreMLtoCreateASongRecommendationEngine)
+* **iMessage Spam Detection** - Detect whether a message is spam. [Download](https://github.com/gkswamy98/imessage-spam-detection/blob/master/MessageClassifier.mlmodel)  | [Demo](https://github.com/gkswamy98/imessage-spam-detection/tree/master) | [Reference](http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/)
 
 ## The Gold
 *Collections of machine learning models that could be converted to Core ML*

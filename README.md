@@ -5,7 +5,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-There are many Core ML examples available, but very few unique models. With this repo, we collect the largest list of unique CoreML models, so developer can experiment machine learning techniques. If you've converted a Core ML model and is willing to share it with people, feel free to submit a PR here. (Some model download link might got changed, we're working a centralized location to store all the model files.)
+There are many Core ML examples available, but very few unique models. With this repo, we collect the largest list of unique CoreML models, so developer can experiment machine learning techniques. If you've converted a Core ML model and is willing to share it with people, feel free to submit a PR here. (Some model download link might got changed, we're working on a centralized location to store all the model files.)
 
 # Models
 

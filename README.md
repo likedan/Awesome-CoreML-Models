@@ -1,11 +1,13 @@
 <img src="images/coreml.png" width="150" height="150"/>
 
-# Core ML Models
+# Awesome Core ML Models
+
+We've put up the largest collection of machine learning models that work with Apples Core ML standard, to help iOS developers experiment with machine learning techniques. If you've converted a Core ML model and feel free to submit a PR here.
+
+(Some model download link might got changed, we're working on a centralized location to store all the model files.)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-
-There are many Core ML examples available, but very few unique models. With this repo, we collect the largest list of unique CoreML models, so developer can experiment machine learning techniques. If you've converted a Core ML model and is willing to share it with people, feel free to submit a PR here. (Some model download link might got changed, we're working on a centralized location to store all the model files.)
 
 # Models
 

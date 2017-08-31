@@ -11,7 +11,7 @@ for model in data["models"]:
     model_metadata[model["type"]].append(model)
 
 def render_model_line(model):
-    return "* **" + model["name"] + "** - " + model["description"] + " [Download](" + model["download_link"] + ") | [Demo](" + model["demo_link"] + ") | [Reference](" + model["reference_link"] + ")\n"
+    return "* **" + model["name"] + "** - " + model["description"] + " [Download](" + data["model_download_url_prefix"] + model["file"] + ") | [Demo](" + model["demo_link"] + ") | [Reference](" + model["reference_link"] + ")\n"
 
 content = """
 <img src="images/coreml.png" width="150" height="150"/>
@@ -19,8 +19,6 @@ content = """
 # Awesome Core ML Models
 
 We've put up the largest collection of machine learning models that work with Apples Core ML standard, to help iOS developers experiment with machine learning techniques. If you've converted a Core ML model and feel free to submit a PR here.
-
-(Some model download link might got changed, we're working on a centralized location to store all the model files.)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)

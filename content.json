@@ -1,7 +1,9 @@
 {
     "types": ["image", "text", "miscellaneous"],
+    "model_download_url_prefix": "https://s3-us-west-2.amazonaws.com/coreml-models/",
     "models": [{
                "name": "MobileNet",
+               "file": "MobileNet.mlmodel",
                "description": "Detects the dominant objects present in an image.",
                "download_link": "https://github.com/hollance/MobileNet-CoreML/raw/master/MobileNet.mlmodel",
                "demo_link": "https://github.com/hollance/MobileNet-CoreML",
@@ -10,6 +12,7 @@
                },
                {
                "name": "Places CNN",
+               "file": "GoogLeNetPlaces.mlmodel",
                "description": "Detects the scene of an image from 205 categories such as bedroom, forest, coast etc.",
                "download_link": "https://github.com/hollance/MobileNet-CoreML/raw/master/MobileNet.mlmodel",
                "demo_link": "https://github.com/chenyi1989/CoreMLDemo",
@@ -18,6 +21,7 @@
                },
                {
                "name": "Inception v3",
+               "file": "Inceptionv3.mlmodel",
                "description": "Detects the dominant objects present in an image.",
                "download_link": "https://github.com/yulingtianxia/Core-ML-Sample/blob/master/CoreMLSample/Inceptionv3.mlmodel",
                "demo_link": "https://github.com/yulingtianxia/Core-ML-Sample/",
@@ -26,6 +30,7 @@
                },
                {
                "name": "ResNet50",
+               "file": "Resnet50.mlmodel",
                "description": "Detects the dominant objects present in an image.",
                "download_link": "https://github.com/ytakzk/CoreML-samples/blob/master/CoreML-samples/Resnet50.mlmodel",
                "demo_link": "https://github.com/ytakzk/CoreML-samples",
@@ -34,6 +39,7 @@
                },
                {
                "name": "VGG16",
+               "file": "VGG16.mlmodel",
                "description": "Detects the dominant objects present in an image.",
                "download_link": "https://docs-assets.developer.apple.com/coreml/models/VGG16.mlmodel",
                "demo_link": "https://github.com/alaphao/CoreMLExample",
@@ -42,6 +48,7 @@
                },
                {
                "name": "Car Recognition",
+               "file": "CarRecognition.mlmodel",
                "description": "Predict the brand & model of a car.",
                "download_link": "https://github.com/likedan/Core-ML-Car-Recognition/blob/master/Convert/CarRecognition.mlmodel",
                "demo_link": "https://github.com/ytakzk/CoreML-samples",
@@ -50,6 +57,7 @@
                },
                {
                "name": "YOLO",
+               "file": "TinyYOLO.mlmodel",
                "description": "Recognize what the objects are inside a given image and where they are in the image.",
                "download_link": "https://github.com/hollance/YOLO-CoreML-MPSNNGraph/blob/master/TinyYOLO-CoreML/TinyYOLO-CoreML/TinyYOLO.mlmodel",
                "demo_link": "https://github.com/hollance/YOLO-CoreML-MPSNNGraph",
@@ -58,14 +66,16 @@
                },
                {
                "name": "AgeNet",
+               "file": "AgeNet.mlmodel",
                "description": "Predict a person's age from one's portrait.",
-               "download_link": "https://drive.google.com/file/d/0B1ghKa_MYL6mT1J3T1BEeWx4TWc/view?usp=sharing",
+               "download_link": "https://s3-us-west-2.amazonaws.com/coreml-models/AgeNet.mlmodel",
                "demo_link": "https://github.com/cocoa-ai/FacesVisionDemo",
                "reference_link": "http://www.openu.ac.il/home/hassner/projects/cnn_agegender/",
                "type": "image"
                },
                {
                "name": "GenderNet",
+               "file": "GenderNet.mlmodel",
                "description": "Predict a person's gender from one's portrait.",
                "download_link": "https://drive.google.com/file/d/0B1ghKa_MYL6mYkNsZHlyc2ZuaFk/view?usp=sharing",
                "demo_link": "https://github.com/cocoa-ai/FacesVisionDemo",
@@ -74,6 +84,7 @@
                },
                {
                "name": "MNIST",
+               "file": "MNIST.mlmodel",
                "description": "Predict handwritten (drawn) digits from images.",
                "download_link": "https://github.com/ph1ps/MNIST-CoreML/raw/master/MNISTPrediction/MNIST.mlmodel",
                "demo_link": "https://github.com/ph1ps/MNIST-CoreML",
@@ -82,6 +93,7 @@
                },
                {
                "name": "EmotionNet",
+               "file": "CNNEmotions.mlmodel",
                "description": "Predict a person's emotion from one's portrait.",
                "download_link": "https://drive.google.com/file/d/0B1ghKa_MYL6mTlYtRGdXNFlpWDQ/view?usp=sharing",
                "demo_link": "https://github.com/cocoa-ai/FacesVisionDemo",
@@ -90,6 +102,7 @@
                },
                {
                "name": "HED",
+               "file": "HED_so.mlmodel",
                "description": "Detect nested edges from a color image.",
                "download_link": "https://github.com/s1ddok/HED-CoreML/blob/master/HED-CoreML/Models/HED_so.mlmodel",
                "demo_link": "https://github.com/s1ddok/HED-CoreML",
@@ -98,6 +111,7 @@
                },
                {
                "name": "SentimentVision",
+               "file": "VisualSentimentCNN.mlmodel",
                "description": "Predict positive or negative sentiments from images.",
                "download_link": "https://drive.google.com/open?id=0B1ghKa_MYL6mZ0dITW5uZlgyNTg",
                "demo_link": "https://github.com/cocoa-ai/SentimentVisionDemo",
@@ -106,6 +120,7 @@
                },
                {
                "name": "Food101",
+               "file": "Food101.mlmodel",
                "description": "Predict the type of foods from images.",
                "download_link": "https://drive.google.com/open?id=0B5TjkH3njRqnVjBPZGRZbkNITjA",
                "demo_link": "https://github.com/ph1ps/Food101-CoreML",
@@ -114,6 +129,7 @@
                },
                {
                "name": "Oxford102",
+               "file": "Oxford102.mlmodel",
                "description": "Detect the type of flowers from images.",
                "download_link": "https://drive.google.com/file/d/0B1ghKa_MYL6meDBHT2NaZGxkNzQ/view?usp=sharing",
                "demo_link": "https://github.com/cocoa-ai/FlowersVisionDemo",
@@ -122,6 +138,7 @@
                },
                {
                "name": "FlickrStyle",
+               "file": "FlickrStyle.mlmodel",
                "description": "Detect the artistic style of images.",
                "download_link": "https://drive.google.com/file/d/0B1ghKa_MYL6meDBHT2NaZGxkNzQ/view?usp=sharing",
                "demo_link": "https://github.com/cocoa-ai/StylesVisionDemo",
@@ -130,6 +147,7 @@
                },
                {
                "name": "Sentiment Polarity",
+               "file": "SentimentPolarity.mlmodel",
                "description": "Predict positive or negative sentiments from sentences.",
                "download_link": "https://github.com/cocoa-ai/SentimentCoreMLDemo/raw/master/SentimentPolarity/Resources/SentimentPolarity.mlmodel",
                "demo_link": "https://github.com/cocoa-ai/SentimentCoreMLDemo",
@@ -138,6 +156,7 @@
                },
                {
                "name": "iMessage Spam Detection",
+               "file": "MessageClassifier.mlmodel",
                "description": "Detect whether a message is spam.",
                "download_link": "https://github.com/gkswamy98/imessage-spam-detection/blob/master/MessageClassifier.mlmodel",
                "demo_link": "https://github.com/gkswamy98/imessage-spam-detection/tree/master",
@@ -146,6 +165,7 @@
                },
                {
                "name": "Artists Recommendation",
+               "file": "Artist.mlmodel",
                "description": "Recommend a artist based on given location and genre.",
                "download_link": "https://github.com/agnosticdev/Blog-Examples/blob/master/UsingCoreMLtoCreateASongRecommendationEngine/Artist.mlmodel",
                "demo_link": "https://github.com/gkswamy98/imessage-spam-detection/tree/master",

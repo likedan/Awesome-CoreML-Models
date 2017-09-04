@@ -11,7 +11,7 @@ for model in data["models"]:
     model_metadata[model["type"]].append(model)
 
 def render_model_line(model):
-    return "* **" + model["name"] + "** - " + model["description"] + " | [Download](" + data["model_download_url_prefix"] + model["file"] + ") | [Demo](" + model["demo_link"] + ") | [Reference](" + model["reference_link"] + ")\n"
+    return "* **" + model["name"] + "** - " + model["description"] + " [Download](" + data["model_download_url_prefix"] + model["file"] + ") | [Demo](" + model["demo_link"] + ") | [Reference](" + model["reference_link"] + ")\n"
 
 content = """
 <img src="images/coreml.png" width="150" height="150"/>

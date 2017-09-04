@@ -51,7 +51,7 @@
                "file": "CarRecognition.mlmodel",
                "description": "Predict the brand & model of a car.",
                "download_link": "https://github.com/likedan/Core-ML-Car-Recognition/blob/master/Convert/CarRecognition.mlmodel",
-               "demo_link": "https://github.com/ytakzk/CoreML-samples",
+               "demo_link": "https://github.com/likedan/Core-ML-Car-Recognition",
                "reference_link": "http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html",
                "type": "image"
                },

@@ -33,6 +33,11 @@ We've put up the largest collection of machine learning models that work with Ap
 *Models that process text data*
 * **Sentiment Polarity** - Predict positive or negative sentiments from sentences. [Download](https://s3-us-west-2.amazonaws.com/coreml-models/SentimentPolarity.mlmodel) | [Demo](https://github.com/cocoa-ai/SentimentCoreMLDemo) | [Reference](http://boston.lti.cs.cmu.edu/classes/95-865-K/HW/HW3/)
 * **iMessage Spam Detection** - Detect whether a message is spam. [Download](https://s3-us-west-2.amazonaws.com/coreml-models/MessageClassifier.mlmodel) | [Demo](https://github.com/gkswamy98/imessage-spam-detection/tree/master) | [Reference](http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/)
+
+## Human Activity Recognition
+*Models that process movement data*
+* **Exermote** - Predicts exercise from movement data. [Download](https://github.com/Lausbert/Exermote/raw/master/ExermoteInference/ExermoteCoreML/ExermoteCoreML/Model/Exermote.mlmodel) | [Demo](https://github.com/Lausbert/Exermote/tree/master/ExermoteInference) | [Reference](http://lausbert.com/2017/08/03/exermote/)
+
 ## Miscellaneous
 * **Artists Recommendation** - Recommend a artist based on given location and genre. [Download](https://s3-us-west-2.amazonaws.com/coreml-models/Artist.mlmodel) | [Demo](https://github.com/gkswamy98/imessage-spam-detection/tree/master) | [Reference](https://www.agnosticdev.com/blog-entry/python/using-scikit-learn-and-coreml-create-music-recommendation-engine)
 

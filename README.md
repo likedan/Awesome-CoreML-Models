@@ -36,6 +36,10 @@ We've put up the largest collection of machine learning models that work with Ap
 ## Miscellaneous
 * **Artists Recommendation** - Recommend a artist based on given location and genre. [Download](https://s3-us-west-2.amazonaws.com/coreml-models/Artist.mlmodel) | [Demo](https://github.com/gkswamy98/imessage-spam-detection/tree/master) | [Reference](https://www.agnosticdev.com/blog-entry/python/using-scikit-learn-and-coreml-create-music-recommendation-engine)
 
+## Human Activity Recognition
+*Models that process movement data*
+* **Exermote** - Predicts exercise, when iPhone is worn on right upper arm.. [Download](https://github.com/Lausbert/Exermote/raw/master/ExermoteInference/ExermoteCoreML/ExermoteCoreML/Model/Exermote.mlmodel) | [Demo](https://github.com/Lausbert/Exermote) | [Reference](http://lausbert.com/2017/08/03/exermote/)
+
 # The Gold
 *Collections of machine learning models that could be converted to Core ML*
 

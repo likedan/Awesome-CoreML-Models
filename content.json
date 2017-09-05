@@ -1,5 +1,5 @@
 {
-    "types": ["image", "text", "miscellaneous"],
+    "types": ["image", "text", "others"],
     "model_download_url_prefix": "https://s3-us-west-2.amazonaws.com/coreml-models/",
     "models": [{
                "name": "MobileNet",
@@ -164,13 +164,22 @@
                "type": "text"
                },
                {
+               "name": "Exermote",
+               "file": "Exermote.mlmodel",
+               "description": "Predicts the type of exercise from movement data.",
+               "download_link": "https://github.com/Lausbert/Exermote/raw/master/ExermoteInference/ExermoteCoreML/ExermoteCoreML/Model/Exermote.mlmodel",
+               "demo_link": "https://github.com/Lausbert/Exermote/tree/master/ExermoteInference",
+               "reference_link": "http://lausbert.com/2017/08/03/exermote/",
+               "type": "others"
+               },
+               {
                "name": "Artists Recommendation",
                "file": "Artist.mlmodel",
                "description": "Recommend a artist based on given location and genre.",
                "download_link": "https://github.com/agnosticdev/Blog-Examples/blob/master/UsingCoreMLtoCreateASongRecommendationEngine/Artist.mlmodel",
                "demo_link": "https://github.com/gkswamy98/imessage-spam-detection/tree/master",
                "reference_link": "https://www.agnosticdev.com/blog-entry/python/using-scikit-learn-and-coreml-create-music-recommendation-engine",
-               "type": "miscellaneous"
+               "type": "others"
                }
     ]
 }

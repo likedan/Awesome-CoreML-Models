@@ -40,9 +40,9 @@ content += """
 for model in model_metadata["text"]:
     content += render_model_line(model)
 
-content += "## Miscellaneous\n"
+content += "## Others\n"
 
-for model in model_metadata["miscellaneous"]:
+for model in model_metadata["others"]:
     content += render_model_line(model)
 
 content += """

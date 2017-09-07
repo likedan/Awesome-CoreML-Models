@@ -28,6 +28,7 @@ We've put up the largest collection of machine learning models that work with Ap
 * **Food101** - Predict the type of foods from images. [Download](https://s3-us-west-2.amazonaws.com/coreml-models/Food101.mlmodel) | [Demo](https://github.com/ph1ps/Food101-CoreML) | [Reference](http://visiir.lip6.fr/explore)
 * **Oxford102** - Detect the type of flowers from images. [Download](https://s3-us-west-2.amazonaws.com/coreml-models/Oxford102.mlmodel) | [Demo](https://github.com/cocoa-ai/FlowersVisionDemo) | [Reference](http://jimgoo.com/flower-power/)
 * **FlickrStyle** - Detect the artistic style of images. [Download](https://s3-us-west-2.amazonaws.com/coreml-models/FlickrStyle.mlmodel) | [Demo](https://github.com/cocoa-ai/StylesVisionDemo) | [Reference](http://sergeykarayev.com/files/1311.3715v3.pdf)
+* **LocationNet** - Predict the location where a picture was taken. [Download](https://s3-us-west-2.amazonaws.com/coreml-models/RN1015k500.mlmodel) | [Demo](https://github.com/awslabs/MXNet2CoreML_iOS_sample_app) | [Reference](https://aws.amazon.com/blogs/ai/estimating-the-location-of-images-using-mxnet-and-multimedia-commons-dataset-on-aws-ec2)
 
 ## Text
 *Models that process text data*
@@ -43,6 +44,7 @@ We've put up the largest collection of machine learning models that work with Ap
 * [Caffe Model Zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo) - Big list of models in Caffe format.
 * [TensorFlow Models](https://github.com/tensorflow/models) - Models for TensorFlow.
 * [TensorFlow Slim Models](https://github.com/tensorflow/models/blob/master/slim/README.md) - Another collection of TensorFlow Models.
+* [MXNet Model Zoo](https://mxnet.incubator.apache.org/model_zoo/) - Collection of MXNet models.
 
 # Contributing and License
 * [See the guide](https://github.com/likedan/Awesome-CoreML-Models/blob/master/.github/CONTRIBUTING.md)

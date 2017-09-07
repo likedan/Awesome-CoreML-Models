@@ -146,6 +146,15 @@
                "type": "image"
                },
                {
+               "name": "LocationNet",
+               "file": "RN1015k500.mlmodel",
+               "description": "Predict the location where a picture was taken.",
+               "download_link": "https://s3.amazonaws.com/aws-bigdata-blog/artifacts/RN1015k500/RN1015k500.mlmodel",
+               "demo_link": "https://github.com/awslabs/MXNet2CoreML_iOS_sample_app",
+               "reference_link": "https://aws.amazon.com/blogs/ai/estimating-the-location-of-images-using-mxnet-and-multimedia-commons-dataset-on-aws-ec2",
+               "type": "image"
+               },
+               {
                "name": "Sentiment Polarity",
                "file": "SentimentPolarity.mlmodel",
                "description": "Predict positive or negative sentiments from sentences.",

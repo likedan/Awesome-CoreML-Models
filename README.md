@@ -38,6 +38,16 @@ We've put up the largest collection of machine learning models that work with Ap
 * **Exermote** - Predicts the type of exercise from movement data. [Download](https://s3-us-west-2.amazonaws.com/coreml-models/Exermote.mlmodel) | [Demo](https://github.com/Lausbert/Exermote/tree/master/ExermoteInference) | [Reference](http://lausbert.com/2017/08/03/exermote/)
 * **Artists Recommendation** - Recommend a artist based on given location and genre. [Download](https://s3-us-west-2.amazonaws.com/coreml-models/Artist.mlmodel) | [Demo](https://github.com/gkswamy98/imessage-spam-detection/tree/master) | [Reference](https://www.agnosticdev.com/blog-entry/python/using-scikit-learn-and-coreml-create-music-recommendation-engine)
 
+
+# Supported formats
+*List of model formats that could be converted to Core ML with examples*
+* [Caffe](https://apple.github.io/coremltools/generated/coremltools.converters.caffe.convert.html)
+* [Keras](https://apple.github.io/coremltools/generated/coremltools.converters.keras.convert.html)
+* [XGBoost](https://apple.github.io/coremltools/generated/coremltools.converters.xgboost.convert.html)
+* [Scikit-learn](https://apple.github.io/coremltools/generated/coremltools.converters.sklearn.convert.html)
+* [MXNet](https://aws.amazon.com/blogs/ai/bring-machine-learning-to-ios-apps-using-apache-mxnet-and-apple-core-ml/)
+* [LibSVM](https://apple.github.io/coremltools/generated/coremltools.converters.libsvm.convert.html)
+
 # The Gold
 *Collections of machine learning models that could be converted to Core ML*
 

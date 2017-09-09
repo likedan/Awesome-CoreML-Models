@@ -46,6 +46,16 @@ for model in model_metadata["others"]:
     content += render_model_line(model)
 
 content += """
+
+# Supported formats
+*List of model formats that could be converted to Core ML with examples*
+* [Caffe](https://apple.github.io/coremltools/generated/coremltools.converters.caffe.convert.html)
+* [Keras](https://apple.github.io/coremltools/generated/coremltools.converters.keras.convert.html)
+* [XGBoost](https://apple.github.io/coremltools/generated/coremltools.converters.xgboost.convert.html)
+* [Scikit-learn](https://apple.github.io/coremltools/generated/coremltools.converters.sklearn.convert.html)
+* [MXNet](https://aws.amazon.com/blogs/ai/bring-machine-learning-to-ios-apps-using-apache-mxnet-and-apple-core-ml/)
+* [LibSVM](https://apple.github.io/coremltools/generated/coremltools.converters.libsvm.convert.html)
+
 # The Gold
 *Collections of machine learning models that could be converted to Core ML*
 

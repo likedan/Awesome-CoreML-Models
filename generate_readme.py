@@ -30,16 +30,24 @@ We've put up the largest collection of machine learning models that work with Ap
 
 # Models
 
-## Image
-*Models that process image data*
+## Image Detection
+*Models that takes image data as input and output useful information about the image.*
 """
 
-for model in model_metadata["image"]:
+for model in model_metadata["image_detection"]:
     content += render_model_line(model)
 
 content += """
-## Text
-*Models that process text data*
+## Image Processing
+*Models that transform image data into other form of image data.*
+"""
+
+for model in model_metadata["image_processing"]:
+    content += render_model_line(model)
+
+content += """
+## Text Analysis
+*Models that takes text data as input and output useful information about the text.*
 """
 
 for model in model_metadata["text"]:

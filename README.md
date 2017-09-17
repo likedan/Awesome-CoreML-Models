@@ -61,6 +61,7 @@ We've put up the largest collection of machine learning models that work with Ap
 * [Scikit-learn](https://apple.github.io/coremltools/generated/coremltools.converters.sklearn.convert.html)
 * [MXNet](https://aws.amazon.com/blogs/ai/bring-machine-learning-to-ios-apps-using-apache-mxnet-and-apple-core-ml/)
 * [LibSVM](https://apple.github.io/coremltools/generated/coremltools.converters.libsvm.convert.html)
+* [Torch7](https://github.com/prisma-ai/torch2coreml)
 
 # The Gold
 *Collections of machine learning models that could be converted to Core ML*

@@ -15,7 +15,7 @@ We've put up the largest collection of machine learning models that work with Ap
 
 # Models
 
-## Image Detection
+## Object Detection
 *Models that takes image data as input and output useful information about the image.*
 * **MobileNet** - Detects the dominant objects present in an image. [Download](https://s3-us-west-2.amazonaws.com/coreml-models/MobileNet.mlmodel) | [Demo](https://github.com/hollance/MobileNet-CoreML) | [Reference](https://arxiv.org/abs/1704.04861)
 * **Places CNN** - Detects the scene of an image from 205 categories such as bedroom, forest, coast etc. [Download](https://s3-us-west-2.amazonaws.com/coreml-models/GoogLeNetPlaces.mlmodel) | [Demo](https://github.com/chenyi1989/CoreMLDemo) | [Reference](http://places.csail.mit.edu/index.html)
@@ -34,7 +34,7 @@ We've put up the largest collection of machine learning models that work with Ap
 * **FlickrStyle** - Detect the artistic style of images. [Download](https://s3-us-west-2.amazonaws.com/coreml-models/FlickrStyle.mlmodel) | [Demo](https://github.com/cocoa-ai/StylesVisionDemo) | [Reference](http://sergeykarayev.com/files/1311.3715v3.pdf)
 * **LocationNet** - Predict the location where a picture was taken. [Download](https://s3-us-west-2.amazonaws.com/coreml-models/RN1015k500.mlmodel) | [Demo](https://github.com/awslabs/MXNet2CoreML_iOS_sample_app) | [Reference](https://aws.amazon.com/blogs/ai/estimating-the-location-of-images-using-mxnet-and-multimedia-commons-dataset-on-aws-ec2)
 
-## Image Processing
+## Style Transfer
 *Models that transform image data into other form of image data.*
 * **HED** - Output the nested edges of a color image. [Download](https://s3-us-west-2.amazonaws.com/coreml-models/HED_so.mlmodel) | [Demo](https://github.com/s1ddok/HED-CoreML) | [Reference](http://dl.acm.org/citation.cfm?id=2654889)
 * **Candy** - Transfer a color image into Candy style. [Download](https://s3-us-west-2.amazonaws.com/coreml-models/FNS-Candy.mlmodel) | [Demo](https://github.com/prisma-ai/torch2coreml) | [Reference](http://cs.stanford.edu/people/jcjohns/eccv16/)
@@ -50,7 +50,6 @@ We've put up the largest collection of machine learning models that work with Ap
 * **iMessage Spam Detection** - Detect whether a message is spam. [Download](https://s3-us-west-2.amazonaws.com/coreml-models/MessageClassifier.mlmodel) | [Demo](https://github.com/gkswamy98/imessage-spam-detection/tree/master) | [Reference](http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/)
 ## Others
 * **Exermote** - Predicts the type of exercise from movement data. [Download](https://s3-us-west-2.amazonaws.com/coreml-models/Exermote.mlmodel) | [Demo](https://github.com/Lausbert/Exermote/tree/master/ExermoteInference) | [Reference](http://lausbert.com/2017/08/03/exermote/)
-* **Artists Recommendation** - Recommend a artist based on given location and genre. [Download](https://s3-us-west-2.amazonaws.com/coreml-models/Artist.mlmodel) | [Demo](https://github.com/gkswamy98/imessage-spam-detection/tree/master) | [Reference](https://www.agnosticdev.com/blog-entry/python/using-scikit-learn-and-coreml-create-music-recommendation-engine)
 
 
 # Supported formats

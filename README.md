@@ -43,6 +43,7 @@ We've put up the largest collection of machine learning models that work with Ap
 * **The Scream** - Transfer a color image into The-Scream style. [Download](https://s3-us-west-2.amazonaws.com/coreml-models/FNS-The-Scream.mlmodel) | [Demo](https://github.com/prisma-ai/torch2coreml) | [Reference](http://cs.stanford.edu/people/jcjohns/eccv16/)
 * **Udnie** - Transfer a color image into Udnie style. [Download](https://s3-us-west-2.amazonaws.com/coreml-models/FNS-Udnie.mlmodel) | [Demo](https://github.com/prisma-ai/torch2coreml) | [Reference](http://cs.stanford.edu/people/jcjohns/eccv16/)
 * **Mosaic** - Transfer a color image into Mosaic style. [Download](https://s3-us-west-2.amazonaws.com/coreml-models/FNS-Mosaic.mlmodel) | [Demo](https://github.com/prisma-ai/torch2coreml) | [Reference](http://cs.stanford.edu/people/jcjohns/eccv16/)
+* **Waifu2x** - Scale and denoise anime-style artworks. [Download](https://github.com/imxieyi/waifu2x-ios/raw/master/models/anime_scale2x_model.mlmodel) | [Demo](https://github.com/imxieyi/waifu2x-ios) | [Reference](https://arxiv.org/abs/1501.00092)
 
 ## Text Analysis
 *Models that takes text data as input and output useful information about the text.*

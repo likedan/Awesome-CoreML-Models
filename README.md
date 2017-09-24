@@ -8,7 +8,9 @@ Author: Kedan Li
 
 # Awesome Core ML Models
 
-We've put up the largest collection of machine learning models that work with Apples Core ML standard, to help iOS developers experiment with machine learning techniques. If you've converted a Core ML model and feel free to submit a PR here.
+Since iOS 11, Apple released Core ML framework to help developers integrate machine learning models into applications. [The official documentations](https://developer.apple.com/documentation/coreml)
+
+We've put up the largest collection of machine learning models in Core ML format, to help  iOS, macOS, tvOS, and watchOS developers experiment with machine learning techniques. If you've converted a Core ML model and feel free to submit a PR here.
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)

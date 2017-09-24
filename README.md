@@ -8,7 +8,7 @@ Author: Kedan Li
 
 # Awesome Core ML Models
 
-Since iOS 11, Apple released Core ML framework to help developers integrate machine learning models into applications. [The official documentations](https://developer.apple.com/documentation/coreml)
+Since iOS 11, Apple released Core ML framework to help developers integrate machine learning models into applications. [The official documentation](https://developer.apple.com/documentation/coreml)
 
 We've put up the largest collection of machine learning models in Core ML format, to help  iOS, macOS, tvOS, and watchOS developers experiment with machine learning techniques. If you've converted a Core ML model and feel free to submit a PR here.
 

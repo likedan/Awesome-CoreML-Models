@@ -14,7 +14,7 @@ Since iOS 11, Apple released Core ML framework to help developers integrate mach
 
 We've put up the largest collection of machine learning models in Core ML format, to help  iOS, macOS, tvOS, and watchOS developers experiment with machine learning techniques. We've created a site with better visualization of the models [CoreML.Store](https://coreml.store), and are working on more advance features.
 
-If you've converted a Core ML model, feel free to submit a PR here.
+If you've converted a Core ML model, feel free to submit an [issue](https://github.com/likedan/Awesome-CoreML-Models/issues/new).
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)

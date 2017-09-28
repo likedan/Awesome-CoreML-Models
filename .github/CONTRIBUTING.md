@@ -1,16 +1,14 @@
 # Contribution Guidelines
 
-Please ensure your pull request adheres to the following guidelines:
+Please ensure your issue adheres to the following guidelines:
 
 - Search previous suggestions before making a new one, as yours may be a duplicate.
-- **Make an individual pull request for each suggestion.**
-- Use the following format: `**Model Name** - Short understandable description of what the model does. [Download](Modile file URL) | [Demo](URL) | [Reference](URL)`. (Reference is optional)
+- **Make an individual issue for each model.**
+- Fill in all the fields in the issue template.
 - Keep descriptions short and simple, but descriptive.
 - Make sure the .mlmodel file is compatible with the latest Xcode.
-- End all descriptions with a full stop/period.
 - Check your spelling and grammar.
 - Make sure that your suggestion is positioned as the last item category.
-- Make sure your text editor is set to remove trailing whitespace.
 
 #### Models are ineligible if:
 

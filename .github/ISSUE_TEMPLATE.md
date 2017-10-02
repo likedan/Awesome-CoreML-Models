@@ -17,7 +17,7 @@
 <!--- The demo project URL. A GitHub repo is recommended. -->
 
 ## Samples
-<!--- It helps people understand your model by giving sample input and output. Each sample contains one/multiple input(s) and output(s). Each sample can be in either image or text form. If multiple samples are given, make sure they have the same format. For example:
+<!--- It helps people understand your model by giving sample input and output. Each sample contains one/multiple input(s) and output(s). Each sample can be in either image or text form. If multiple samples are given, make sure they have the same format. For example. For image, please upload the file or provide the url to the resource:
 Input: Image[URL], Output: Text[Rose],
 Input: Image[URL], Output: Text[Morning Glory],
 -->

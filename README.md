@@ -36,8 +36,8 @@ If you've converted a Core ML model, feel free to submit an [issue](https://gith
 |<b>MNIST</b><br />Predicts a handwritten digit.<br />[Download](https://coreml.store/mnist?download) \| [Demo](https://github.com/ph1ps/MNIST-CoreML) \| [Reference](http://yann.lecun.com/exdb/mnist/)|<b>CNNEmotions</b><br />Emotion Recognition in the Wild via Convolutional Neural Networks and Mapped Binary Patterns<br />[Download](https://coreml.store/cnnemotions?download) \| [Demo](https://github.com/cocoa-ai/FacesVisionDemo) \| [Reference](http://www.openu.ac.il/home/hassner/projects/cnn_emotions/)|<b>VisualSentimentCNN</b><br />Fine-tuning CNNs for Visual Sentiment Prediction<br />[Download](https://coreml.store/visualsentimentcnn?download) \| [Demo](https://github.com/cocoa-ai/SentimentVisionDemo) \| [Reference](http://www.sciencedirect.com/science/article/pii/S0262885617300355?via%3Dihub)|
 |[<img src="samples/cover_Food101.jpg">](https://coreml.store/food101)|[<img src="samples/cover_Oxford102.jpg">](https://coreml.store/oxford102)|[<img src="samples/cover_FlickrStyle.jpg">](https://coreml.store/flickrstyle)|
 |<b>Food101</b><br />This model takes a picture of a food and predicts its name<br />[Download](https://coreml.store/food101?download) \| [Demo](https://github.com/ph1ps/Food101-CoreML) \| [Reference](http://visiir.lip6.fr/explore)|<b>Oxford102</b><br />Classifying images in the Oxford 102 flower dataset with CNNs<br />[Download](https://coreml.store/oxford102?download) \| [Demo](https://github.com/cocoa-ai/FlowersVisionDemo) \| [Reference](http://jimgoo.com/flower-power/)|<b>FlickrStyle</b><br />Finetuning CaffeNet on Flickr Style<br />[Download](https://coreml.store/flickrstyle?download) \| [Demo](https://github.com/cocoa-ai/StylesVisionDemo) \| [Reference](http://sergeykarayev.com/files/1311.3715v3.pdf)|
-|[<img src="samples/cover_RN1015k500.jpg">](https://coreml.store/rn1015k500)|[<img src="http://via.placeholder.com/552x486/fafafa/dddddd/?text=great%20model%20to%20come">](https://coreml.store)|[<img src="http://via.placeholder.com/552x486/fafafa/dddddd/?text=great%20model%20to%20come">](https://coreml.store)|
-|<b>RN1015k500</b><br />Predict the location where a picture was taken.<br />[Download](https://coreml.store/rn1015k500?download) \| [Demo](https://github.com/awslabs/MXNet2CoreML_iOS_sample_app) \| [Reference](https://aws.amazon.com/blogs/ai/estimating-the-location-of-images-using-mxnet-and-multimedia-commons-dataset-on-aws-ec2)|||
+|[<img src="samples/cover_RN1015k500.jpg">](https://coreml.store/rn1015k500)|[<img src="samples/cover_Nudity.jpg">](https://coreml.store/nudity)|[<img src="http://via.placeholder.com/552x486/fafafa/dddddd/?text=great%20model%20to%20come">](https://coreml.store)|
+|<b>RN1015k500</b><br />Predict the location where a picture was taken.<br />[Download](https://coreml.store/rn1015k500?download) \| [Demo](https://github.com/awslabs/MXNet2CoreML_iOS_sample_app) \| [Reference](https://aws.amazon.com/blogs/ai/estimating-the-location-of-images-using-mxnet-and-multimedia-commons-dataset-on-aws-ec2)|<b>Nudity</b><br />Classifies an image either as NSFW (nude) or SFW (not nude)<br />[Download](https://coreml.store/nudity?download) \| [Demo](https://github.com/ph1ps/Nudity-CoreML) \| [Reference](https://github.com/yahoo/open_nsfw)||
 
 ## Style Transfer
 *Models that transform image to specific style.*
@@ -84,6 +84,12 @@ If you've converted a Core ML model, feel free to submit an [issue](https://gith
 * [TensorFlow Models](https://github.com/tensorflow/models) - Models for TensorFlow.
 * [TensorFlow Slim Models](https://github.com/tensorflow/models/blob/master/slim/README.md) - Another collection of TensorFlow Models.
 * [MXNet Model Zoo](https://mxnet.incubator.apache.org/model_zoo/) - Collection of MXNet models.
+
+*Individual machine learning models that could be converted to Core ML. We'll keep adjusting the list as they become converted.*
+* [Colorization](https://github.com/richzhang/colorization)
+* [OCR](https://github.com/pannous/caffe-ocr)
+* [Illustration2Vec](https://github.com/rezoo/illustration2vec)
+* [CTPN](https://github.com/tianzhi0549/CTPN) 
 
 # Contributing and License
 * [See the guide](https://github.com/likedan/Awesome-CoreML-Models/blob/master/.github/CONTRIBUTING.md)

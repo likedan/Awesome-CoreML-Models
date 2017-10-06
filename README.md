@@ -86,10 +86,18 @@ If you've converted a Core ML model, feel free to submit an [issue](https://gith
 * [MXNet Model Zoo](https://mxnet.incubator.apache.org/model_zoo/) - Collection of MXNet models.
 
 *Individual machine learning models that could be converted to Core ML. We'll keep adjusting the list as they become converted.*
-* [Colorization](https://github.com/richzhang/colorization)
-* [OCR](https://github.com/pannous/caffe-ocr)
-* [Illustration2Vec](https://github.com/rezoo/illustration2vec)
-* [CTPN](https://github.com/tianzhi0549/CTPN) 
+* [LaMem](https://github.com/MiyainNYC/Visual-Memorability-through-Caffe) Score the memorability of pictures.
+* [ILGnet](https://github.com/BestiVictory/ILGnet) The aesthetic evaluation of images.
+* [Colorization](https://github.com/richzhang/colorization) Automatic colorization using deep neural networks.
+* [Illustration2Vec](https://github.com/rezoo/illustration2vec) Estimating a set of tags and extracting semantic feature vectors from given illustrations.
+* [CTPN](https://github.com/tianzhi0549/CTPN) Detecting text in natural image.
+* [Image Analogy](https://github.com/msracver/Deep-Image-Analogy) Find semantically-meaningful dense correspondences between two input images.
+* [iLID](https://github.com/twerkmeister/iLID) Automatic spoken language identification.
+* [Fashion Detection](https://github.com/liuziwei7/fashion-detection) Cloth detection from images.
+* [Saliency](https://github.com/imatge-upc/saliency-2016-cvpr) The prediction of salient areas in images has been traditionally addressed with hand-crafted features.
+* [Face Detection](https://github.com/DolotovEvgeniy/DeepPyramid) Detect face from image.
+* [mtcnn](https://github.com/CongWeilin/mtcnn-caffe) Joint Face Detection and Alignment.
+* [deephorizon](https://github.com/scottworkman/deephorizon) Single image horizon line estimation.
 
 # Contributing and License
 * [See the guide](https://github.com/likedan/Awesome-CoreML-Models/blob/master/.github/CONTRIBUTING.md)

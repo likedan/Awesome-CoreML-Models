@@ -56,8 +56,8 @@ If you've converted a Core ML model, feel free to submit an [issue](https://gith
 
 | | | |
 |-|-|-|
-|[<img src="samples/cover_SentimentPolarity.jpg">](https://coreml.store/sentimentpolarity)|[<img src="samples/cover_MessageClassifier.jpg">](https://coreml.store/messageclassifier)|[<img src="http://via.placeholder.com/552x486/fafafa/dddddd/?text=great%20model%20to%20come">](https://coreml.store)|
-|<b>SentimentPolarity</b><br />Sentiment polarity LinearSVC.<br />[Download](https://coreml.store/sentimentpolarity?download) \| [Demo](https://github.com/cocoa-ai/SentimentCoreMLDemo) \| [Reference](http://boston.lti.cs.cmu.edu/classes/95-865-K/HW/HW3/)|<b>MessageClassifier</b><br />Detect whether a message is spam.<br />[Download](https://coreml.store/messageclassifier?download) \| [Demo](https://github.com/gkswamy98/imessage-spam-detection/tree/master) \| [Reference](http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/)||
+|[<img src="samples/cover_SentimentPolarity.jpg">](https://coreml.store/sentimentpolarity)|[<img src="samples/cover_MessageClassifier.jpg">](https://coreml.store/messageclassifier)|[<img src="samples/cover_NamesDT.jpg">](https://coreml.store/namesdt)|
+|<b>SentimentPolarity</b><br />Sentiment polarity LinearSVC.<br />[Download](https://coreml.store/sentimentpolarity?download) \| [Demo](https://github.com/cocoa-ai/SentimentCoreMLDemo) \| [Reference](http://boston.lti.cs.cmu.edu/classes/95-865-K/HW/HW3/)|<b>MessageClassifier</b><br />Detect whether a message is spam.<br />[Download](https://coreml.store/messageclassifier?download) \| [Demo](https://github.com/gkswamy98/imessage-spam-detection/tree/master) \| [Reference](http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/)|<b>NamesDT</b><br />Gender Classification using DecisionTreeClassifier<br />[Download](https://coreml.store/namesdt?download) \| [Demo](https://github.com/cocoa-ai/NamesCoreMLDemo) \| [Reference](http://nlpforhackers.io)|
 
 ## Others
 

@@ -26,7 +26,7 @@ If you've converted a Core ML model, feel free to submit an [issue](https://gith
 
 | | | |
 |-|-|-|
-	|[<img src="samples/cover_DocumentClassification.jpg">](https://coreml.store/documentclassification)|[<img src="http://via.placeholder.com/552x486/fafafa/dddddd/?text=great%20model%20to%20come">](https://coreml.store)|[<img src="http://via.placeholder.com/552x486/fafafa/dddddd/?text=great%20model%20to%20come">](https://coreml.store)|
+|[<img src="samples/cover_DocumentClassification.jpg">](https://coreml.store/documentclassification)|[<img src="http://via.placeholder.com/552x486/fafafa/dddddd/?text=great%20model%20to%20come">](https://coreml.store)|[<img src="http://via.placeholder.com/552x486/fafafa/dddddd/?text=great%20model%20to%20come">](https://coreml.store)|
 |<b>DocumentClassification</b><br />Classify news articles into 1 of 5 categories.<br />[Download](https://coreml.store/documentclassification?download) \| [Demo](https://github.com/toddkramer/DocumentClassifier) \| [Reference](https://github.com/toddkramer/DocumentClassifier/)|||
 
 

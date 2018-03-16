@@ -16,6 +16,8 @@ We've put up the largest collection of machine learning models in Core ML format
 
 If you've converted a Core ML model, feel free to submit an [issue](https://github.com/likedan/Awesome-CoreML-Models/issues/new).
 
+Recently, we've included visualization tools. And here's one [Netron](https://lutzroeder.github.io/Netron).
+
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
@@ -77,6 +79,10 @@ If you've converted a Core ML model, feel free to submit an [issue](https://gith
 |[<img src="samples/cover_Exermote.jpg">](https://coreml.store/exermote)|[<img src="samples/cover_GestureAI.jpg">](https://coreml.store/gestureai)|[<img src="http://via.placeholder.com/552x486/fafafa/dddddd/?text=great%20model%20to%20come">](https://coreml.store)|
 |<b>Exermote</b><br />Predicts the exercise, when iPhone is worn on right upper arm.<br />[Download](https://coreml.store/exermote?download) \| [Demo](https://github.com/Lausbert/Exermote/tree/master/ExermoteInference) \| [Reference](http://lausbert.com/2017/08/03/exermote/)|<b>GestureAI</b><br />GestureAI<br />[Download](https://coreml.store/gestureai?download) \| [Demo](https://github.com/akimach/GestureAI-iOS/tree/master/GestureAI) \| [Reference](https://github.com/akimach/GestureAI-iOS/tree/master/GestureAI)||
 
+
+# Visualization Tools
+*Tools that helps visualize CoreML Models*
+* [Netron](https://lutzroeder.github.io/Netron)
 
 # Supported formats
 *List of model formats that could be converted to Core ML with examples*

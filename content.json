@@ -1,0 +1,232 @@
+{
+    "types": ["image", "image-image", "text", "miscellaneous"],
+    "models": [{
+               "name": "PhotoAssessment",
+               "description": "Photo Assessment using Core ML and Metal.",
+               "download_link": "https://github.com/yulingtianxia/PhotoAssessment/blob/master/PhotoAssessment-Sample/Sources/NIMANasnet.mlmodel",
+               "demo_link": "https://github.com/yulingtianxia/PhotoAssessment",
+               "reference_link": "https://arxiv.org/abs/1709.05424",
+               "type": "image"
+               },{
+               "name": "PoseEstimation",
+               "description": "Estimating human pose from a picture for mobile.",
+               "download_link": "https://github.com/edvardHua/PoseEstimationForMobile/tree/master/release",
+               "demo_link": "https://github.com/tucan9389/PoseEstimation-CoreML",
+               "reference_link": "https://github.com/edvardHua/PoseEstimationForMobile",
+               "type": "image"
+               },{
+               "name": "MobileNet",
+               "description": "Detects the dominant objects present in an image.",
+               "download_link": "https://github.com/hollance/MobileNet-CoreML/raw/master/MobileNet.mlmodel",
+               "demo_link": "https://github.com/hollance/MobileNet-CoreML",
+               "reference_link": "https://arxiv.org/abs/1704.04861",
+               "type": "image"
+               },
+               {
+               "name": "Places CNN",
+               "description": "Detects the scene of an image from 205 categories such as bedroom, forest, coast etc.",
+               "download_link": "https://github.com/hollance/MobileNet-CoreML/raw/master/MobileNet.mlmodel",
+               "demo_link": "https://github.com/chenyi1989/CoreMLDemo",
+               "reference_link": "http://places.csail.mit.edu/index.html",
+               "type": "image"
+               },
+               {
+               "name": "Inception v3",
+               "description": "Detects the dominant objects present in an image.",
+               "download_link": "https://github.com/yulingtianxia/Core-ML-Sample/blob/master/CoreMLSample/Inceptionv3.mlmodel",
+               "demo_link": "https://github.com/yulingtianxia/Core-ML-Sample/",
+               "reference_link": "https://arxiv.org/abs/1512.00567",
+               "type": "image"
+               },
+               {
+               "name": "ResNet50",
+               "description": "Detects the dominant objects present in an image.",
+               "download_link": "https://github.com/ytakzk/CoreML-samples/blob/master/CoreML-samples/Resnet50.mlmodel",
+               "demo_link": "https://github.com/ytakzk/CoreML-samples",
+               "reference_link": "https://arxiv.org/abs/1512.03385",
+               "type": "image"
+               },
+               {
+               "name": "VGG16",
+               "description": "Detects the dominant objects present in an image.",
+               "download_link": "https://docs-assets.developer.apple.com/coreml/models/VGG16.mlmodel",
+               "demo_link": "https://github.com/alaphao/CoreMLExample",
+               "reference_link": "https://arxiv.org/abs/1409.1556",
+               "type": "image"
+               },
+               {
+               "name": "Car Recognition",
+               "description": "Predict the brand & model of a car.",
+               "download_link": "https://github.com/likedan/Core-ML-Car-Recognition/blob/master/Convert/CarRecognition.mlmodel",
+               "demo_link": "https://github.com/ytakzk/CoreML-samples",
+               "reference_link": "http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html",
+               "type": "image"
+               },
+               {
+               "name": "YOLO",
+               "description": "Recognize what the objects are inside a given image and where they are in the image.",
+               "download_link": "https://github.com/hollance/YOLO-CoreML-MPSNNGraph/blob/master/TinyYOLO-CoreML/TinyYOLO-CoreML/TinyYOLO.mlmodel",
+               "demo_link": "https://github.com/hollance/YOLO-CoreML-MPSNNGraph",
+               "reference_link": "http://machinethink.net/blog/object-detection-with-yolo",
+               "type": "image"
+               },
+               {
+               "name": "AgeNet",
+               "description": "Predict a person's age from one's portrait.",
+               "download_link": "https://drive.google.com/file/d/0B1ghKa_MYL6mT1J3T1BEeWx4TWc/view?usp=sharing",
+               "demo_link": "https://github.com/cocoa-ai/FacesVisionDemo",
+               "reference_link": "http://www.openu.ac.il/home/hassner/projects/cnn_agegender/",
+               "type": "image"
+               },
+               {
+               "name": "GenderNet",
+               "description": "Predict a person's gender from one's portrait.",
+               "download_link": "https://drive.google.com/file/d/0B1ghKa_MYL6mYkNsZHlyc2ZuaFk/view?usp=sharing",
+               "demo_link": "https://github.com/cocoa-ai/FacesVisionDemo",
+               "reference_link": "http://www.openu.ac.il/home/hassner/projects/cnn_agegender/",
+               "type": "image"
+               },
+               {
+               "name": "MNIST",
+               "description": "Predict handwritten (drawn) digits from images.",
+               "download_link": "https://github.com/ph1ps/MNIST-CoreML/raw/master/MNISTPrediction/MNIST.mlmodel",
+               "demo_link": "https://github.com/ph1ps/MNIST-CoreML",
+               "reference_link": "http://yann.lecun.com/exdb/mnist/",
+               "type": "image"
+               },
+               {
+               "name": "EmotionNet",
+               "description": "Predict a person's emotion from one's portrait.",
+               "download_link": "https://drive.google.com/file/d/0B1ghKa_MYL6mTlYtRGdXNFlpWDQ/view?usp=sharing",
+               "demo_link": "https://github.com/cocoa-ai/FacesVisionDemo",
+               "reference_link": "http://www.openu.ac.il/home/hassner/projects/cnn_emotions/",
+               "type": "image"
+               },
+               {
+               "name": "HED",
+               "description": "Detect nested edges from a color image.",
+               "download_link": "https://github.com/s1ddok/HED-CoreML/blob/master/HED-CoreML/Models/HED_so.mlmodel",
+               "demo_link": "https://github.com/s1ddok/HED-CoreML",
+               "reference_link": "http://dl.acm.org/citation.cfm?id=2654889",
+               "type": "image-image"
+               },
+               {
+               "name": "SentimentVision",
+               "description": "Predict positive or negative sentiments from images.",
+               "download_link": "https://drive.google.com/open?id=0B1ghKa_MYL6mZ0dITW5uZlgyNTg",
+               "demo_link": "https://github.com/cocoa-ai/SentimentVisionDemo",
+               "reference_link": "http://www.sciencedirect.com/science/article/pii/S0262885617300355?via%3Dihub",
+               "type": "image"
+               },
+               {
+               "name": "Food101",
+               "description": "Predict the type of foods from images.",
+               "download_link": "https://drive.google.com/open?id=0B5TjkH3njRqnVjBPZGRZbkNITjA",
+               "demo_link": "https://github.com/ph1ps/Food101-CoreML",
+               "reference_link": "http://visiir.lip6.fr/explore",
+               "type": "image"
+               },
+               {
+               "name": "Oxford102",
+               "description": "Detect the type of flowers from images.",
+               "download_link": "https://drive.google.com/file/d/0B1ghKa_MYL6meDBHT2NaZGxkNzQ/view?usp=sharing",
+               "demo_link": "https://github.com/cocoa-ai/FlowersVisionDemo",
+               "reference_link": "http://jimgoo.com/flower-power/",
+               "type": "image"
+               },
+               {
+               "name": "FlickrStyle",
+               "description": "Detect the artistic style of images.",
+               "download_link": "https://drive.google.com/file/d/0B1ghKa_MYL6meDBHT2NaZGxkNzQ/view?usp=sharing",
+               "demo_link": "https://github.com/cocoa-ai/StylesVisionDemo",
+               "reference_link": "http://sergeykarayev.com/files/1311.3715v3.pdf",
+               "type": "image"
+               },
+               {
+               "name": "RN1015k500",
+               "description": "Predict the location where a picture was taken.",
+               "download_link": "https://s3.amazonaws.com/aws-bigdata-blog/artifacts/RN1015k500/RN1015k500.mlmodel",
+               "demo_link": "https://github.com/awslabs/MXNet2CoreML_iOS_sample_app",
+               "reference_link": "https://aws.amazon.com/blogs/ai/estimating-the-location-of-images-using-mxnet-and-multimedia-commons-dataset-on-aws-ec2",
+               "type": "image"
+               },
+               {
+               "name": "Nudity",
+               "description": "Classifies an image either as NSFW (nude) or SFW (not nude)\n",
+               "download_link": "https://drive.google.com/open?id=0B5TjkH3njRqncDJpdDB1Tkl2S2s",
+               "demo_link": "https://github.com/ph1ps/Nudity-CoreML",
+               "reference_link": "https://github.com/yahoo/open_nsfw",
+               "type": "image"
+               },
+                {
+               "name": "AnimeScale2x",
+               "description": "Process a bicubic-scaled anime-style artwork",
+               "download_link": "https://github.com/imxieyi/waifu2x-ios/blob/master/waifu2x/models/anime_noise0_model.mlmodel",
+               "demo_link": "https://github.com/imxieyi/waifu2x-ios",
+               "reference_link": "https://arxiv.org/abs/1501.00092",
+               "type": "image-image"
+               },                {
+               "name": "Style Transfer",
+               "description": "Apply artistic styles to images.",
+               "download_link": "https://github.com/jcjohnson/fast-neural-style",
+               "demo_link": "https://github.com/jcjohnson/fast-neural-style",
+               "reference_link": "http://cs.stanford.edu/people/jcjohns/eccv16/",
+               "type": "image-image"
+               }, {
+               "name": "Sentiment Polarity",
+               "description": "Predict positive or negative sentiments from sentences.",
+               "download_link": "https://github.com/cocoa-ai/SentimentCoreMLDemo/raw/master/SentimentPolarity/Resources/SentimentPolarity.mlmodel",
+               "demo_link": "https://github.com/cocoa-ai/SentimentCoreMLDemo",
+               "reference_link": "http://boston.lti.cs.cmu.edu/classes/95-865-K/HW/HW3/",
+               "type": "text"
+               },
+               {
+               "name": "DocumentClassification",
+               "description": "Classify news articles into 1 of 5 categories.",
+               "download_link": "https://github.com/toddkramer/DocumentClassifier/blob/master/Sources/DocumentClassification.mlmodel",
+               "demo_link": "https://github.com/toddkramer/DocumentClassifier",
+               "reference_link": "https://github.com/toddkramer/DocumentClassifier/",
+               "type": "text"
+               },
+                     {
+               "name": "iMessage Spam Detection",
+               "description": "Detect whether a message is spam.",
+               "download_link": "https://github.com/gkswamy98/imessage-spam-detection/blob/master/MessageClassifier.mlmodel",
+               "demo_link": "https://github.com/gkswamy98/imessage-spam-detection/tree/master",
+               "reference_link": "http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/",
+               "type": "text"
+               },
+                           {
+               "name": "NamesDT",
+               "description": "Gender Classification using DecisionTreeClassifier",
+               "download_link": "https://github.com/cocoa-ai/NamesCoreMLDemo/blob/master/Names/Resources/NamesDT.mlmodel",
+               "demo_link": "https://github.com/cocoa-ai/NamesCoreMLDemo",
+               "reference_link": "http://nlpforhackers.io/",
+               "type": "text"
+               },
+                     {
+               "name": "Exermote",
+               "description": "Predicts the exercise, when iPhone is worn on right upper arm.",
+               "download_link": "https://github.com/Lausbert/Exermote/tree/master/ExermoteInference",
+               "demo_link": "https://github.com/Lausbert/Exermote/tree/master/ExermoteInference",
+               "reference_link": "http://lausbert.com/2017/08/03/exermote/",
+               "type": "miscellaneous"
+               },
+                     {
+               "name": "GestureAI",
+               "description": "Recommend a artist based on given location and genre.",
+               "download_link": "https://goo.gl/avdMjD",
+               "demo_link": "https://github.com/akimach/GestureAI-CoreML-iOS",
+               "reference_link": "https://github.com/akimach/GestureAI-iOS/tree/master/GestureAI",
+               "type": "miscellaneous"
+               },
+               {
+               "name": "Artists Recommendation",
+               "description": "Recommend a artist based on given location and genre.",
+               "download_link": "https://github.com/agnosticdev/Blog-Examples/blob/master/UsingCoreMLtoCreateASongRecommendationEngine/Artist.mlmodel",
+               "demo_link": "https://github.com/gkswamy98/imessage-spam-detection/tree/master",
+               "reference_link": "https://www.agnosticdev.com/blog-entry/python/using-scikit-learn-and-coreml-create-music-recommendation-engine",
+               "type": "miscellaneous"
+               }
+    ]
+}

@@ -38,15 +38,25 @@ Recently, we've included visualization tools. And here's one [Netron](https://lu
 
 # Models
 
-## Image
-*Models that process image data*
+## Image - Metadata/Text
+*Models that takes image data as input and output useful information about the image.*
 """
 
 for model in model_metadata["image"]:
     content += render_model_line(model)
 
 content += """
-## Text
+
+## Image - Image
+*Models that transform image.*
+"""
+
+for model in model_metadata["image-image"]:
+    content += render_model_line(model)
+
+content += """
+
+## Text - Metadata/Text
 *Models that process text data*
 """
 

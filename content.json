@@ -1,5 +1,5 @@
 {
-    "types": ["image", "text", "miscellaneous"],
+    "types": ["image", "image-image", "text", "miscellaneous"],
     "models": [{
                "name": "MobileNet",
                "description": "Detects the dominant objects present in an image.",
@@ -94,7 +94,7 @@
                "download_link": "https://github.com/s1ddok/HED-CoreML/blob/master/HED-CoreML/Models/HED_so.mlmodel",
                "demo_link": "https://github.com/s1ddok/HED-CoreML",
                "reference_link": "http://dl.acm.org/citation.cfm?id=2654889",
-               "type": "image"
+               "type": "image-image"
                },
                {
                "name": "SentimentVision",
@@ -129,6 +129,36 @@
                "type": "image"
                },
                {
+               "name": "RN1015k500",
+               "description": "Predict the location where a picture was taken.",
+               "download_link": "https://s3.amazonaws.com/aws-bigdata-blog/artifacts/RN1015k500/RN1015k500.mlmodel",
+               "demo_link": "https://github.com/awslabs/MXNet2CoreML_iOS_sample_app",
+               "reference_link": "https://aws.amazon.com/blogs/ai/estimating-the-location-of-images-using-mxnet-and-multimedia-commons-dataset-on-aws-ec2",
+               "type": "image"
+               },
+               {
+               "name": "Nudity",
+               "description": "Classifies an image either as NSFW (nude) or SFW (not nude)\n",
+               "download_link": "https://drive.google.com/open?id=0B5TjkH3njRqncDJpdDB1Tkl2S2s",
+               "demo_link": "https://github.com/ph1ps/Nudity-CoreML",
+               "reference_link": "https://github.com/yahoo/open_nsfw",
+               "type": "image"
+               },
+                {
+               "name": "AnimeScale2x",
+               "description": "Process a bicubic-scaled anime-style artwork",
+               "download_link": "https://github.com/imxieyi/waifu2x-ios/blob/master/waifu2x/models/anime_noise0_model.mlmodel",
+               "demo_link": "https://github.com/imxieyi/waifu2x-ios",
+               "reference_link": "https://arxiv.org/abs/1501.00092",
+               "type": "image-image"
+               },                {
+               "name": "Style Transfer",
+               "description": "Apply artistic styles to images.",
+               "download_link": "https://github.com/jcjohnson/fast-neural-style",
+               "demo_link": "https://github.com/jcjohnson/fast-neural-style",
+               "reference_link": "http://cs.stanford.edu/people/jcjohns/eccv16/",
+               "type": "image-image"
+               }, {
                "name": "Sentiment Polarity",
                "description": "Predict positive or negative sentiments from sentences.",
                "download_link": "https://github.com/cocoa-ai/SentimentCoreMLDemo/raw/master/SentimentPolarity/Resources/SentimentPolarity.mlmodel",
@@ -137,12 +167,36 @@
                "type": "text"
                },
                {
+               "name": "DocumentClassification",
+               "description": "Classify news articles into 1 of 5 categories.",
+               "download_link": "https://github.com/toddkramer/DocumentClassifier/blob/master/Sources/DocumentClassification.mlmodel",
+               "demo_link": "https://github.com/toddkramer/DocumentClassifier",
+               "reference_link": "https://github.com/toddkramer/DocumentClassifier/",
+               "type": "text"
+               },
+                     {
                "name": "iMessage Spam Detection",
                "description": "Detect whether a message is spam.",
                "download_link": "https://github.com/gkswamy98/imessage-spam-detection/blob/master/MessageClassifier.mlmodel",
                "demo_link": "https://github.com/gkswamy98/imessage-spam-detection/tree/master",
                "reference_link": "http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/",
                "type": "text"
+               },
+                     {
+               "name": "Exermote",
+               "description": "Predicts the exercise, when iPhone is worn on right upper arm.",
+               "download_link": "https://github.com/Lausbert/Exermote/tree/master/ExermoteInference",
+               "demo_link": "https://github.com/Lausbert/Exermote/tree/master/ExermoteInference",
+               "reference_link": "http://lausbert.com/2017/08/03/exermote/",
+               "type": "miscellaneous"
+               },
+                     {
+               "name": "GestureAI",
+               "description": "Recommend a artist based on given location and genre.",
+               "download_link": "https://goo.gl/avdMjD",
+               "demo_link": "https://github.com/akimach/GestureAI-CoreML-iOS",
+               "reference_link": "https://github.com/akimach/GestureAI-iOS/tree/master/GestureAI",
+               "type": "miscellaneous"
                },
                {
                "name": "Artists Recommendation",

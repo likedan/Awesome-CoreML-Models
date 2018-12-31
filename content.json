@@ -196,6 +196,14 @@
                "reference_link": "http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/",
                "type": "text"
                },
+                           {
+               "name": "NamesDT",
+               "description": "Gender Classification using DecisionTreeClassifier",
+               "download_link": "https://github.com/cocoa-ai/NamesCoreMLDemo/blob/master/Names/Resources/NamesDT.mlmodel",
+               "demo_link": "https://github.com/cocoa-ai/NamesCoreMLDemo",
+               "reference_link": "http://nlpforhackers.io/",
+               "type": "text"
+               },
                      {
                "name": "Exermote",
                "description": "Predicts the exercise, when iPhone is worn on right upper arm.",

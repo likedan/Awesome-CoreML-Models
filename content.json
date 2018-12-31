@@ -1,6 +1,20 @@
 {
     "types": ["image", "image-image", "text", "miscellaneous"],
     "models": [{
+               "name": "PhotoAssessment",
+               "description": "Photo Assessment using Core ML and Metal.",
+               "download_link": "https://github.com/yulingtianxia/PhotoAssessment/blob/master/PhotoAssessment-Sample/Sources/NIMANasnet.mlmodel",
+               "demo_link": "https://github.com/yulingtianxia/PhotoAssessment",
+               "reference_link": "https://arxiv.org/abs/1709.05424",
+               "type": "image"
+               },{
+               "name": "PoseEstimation",
+               "description": "Estimating human pose from a picture for mobile.",
+               "download_link": "https://github.com/edvardHua/PoseEstimationForMobile/tree/master/release",
+               "demo_link": "https://github.com/tucan9389/PoseEstimation-CoreML",
+               "reference_link": "https://github.com/edvardHua/PoseEstimationForMobile",
+               "type": "image"
+               },{
                "name": "MobileNet",
                "description": "Detects the dominant objects present in an image.",
                "download_link": "https://github.com/hollance/MobileNet-CoreML/raw/master/MobileNet.mlmodel",

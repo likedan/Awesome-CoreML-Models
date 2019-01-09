@@ -214,7 +214,7 @@
                },
                      {
                "name": "GestureAI",
-               "description": "Recommend a artist based on given location and genre.",
+               "description": "Recommend an artist based on given location and genre.",
                "download_link": "https://goo.gl/avdMjD",
                "demo_link": "https://github.com/akimach/GestureAI-CoreML-iOS",
                "reference_link": "https://github.com/akimach/GestureAI-iOS/tree/master/GestureAI",
@@ -222,9 +222,9 @@
                },
                {
                "name": "Artists Recommendation",
-               "description": "Recommend a artist based on given location and genre.",
+               "description": "Recommend an artist based on given location and genre.",
                "download_link": "https://github.com/agnosticdev/Blog-Examples/blob/master/UsingCoreMLtoCreateASongRecommendationEngine/Artist.mlmodel",
-               "demo_link": "https://github.com/gkswamy98/imessage-spam-detection/tree/master",
+               "demo_link": "",
                "reference_link": "https://www.agnosticdev.com/blog-entry/python/using-scikit-learn-and-coreml-create-music-recommendation-engine",
                "type": "miscellaneous"
                }

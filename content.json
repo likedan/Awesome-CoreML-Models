@@ -227,6 +227,14 @@
                "demo_link": "",
                "reference_link": "https://www.agnosticdev.com/blog-entry/python/using-scikit-learn-and-coreml-create-music-recommendation-engine",
                "type": "miscellaneous"
+               },
+               {
+               "name": "Personality Detection",
+               "description": "Predict personality based on user documents (sentences).",
+               "download_link": "https://github.com/novinfard/profiler-sentiment-analysis/tree/master/ios_app/ProfilerSA/ML%20Models",
+               "demo_link": "https://github.com/novinfard/profiler-sentiment-analysis/",
+               "reference_link": "https://github.com/novinfard/profiler-sentiment-analysis/blob/master/dissertation-v6.pdf",
+               "type": "text"
                }
     ]
 }

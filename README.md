@@ -25,8 +25,8 @@ Recently, we've included visualization tools. And here's one [Netron](https://lu
 
 ## Image - Metadata/Text
 *Models that takes image data as input and output useful information about the image.*
-* **TextDetection** - Detecting text from a picture for mobile using Vision built-in model. `Built-in Model` | [Demo](https://github.com/tucan9389/TextDetection-CoreML) | [Reference](https://developer.apple.com/documentation/vision)
-* **TextRecognition** - Recognizing text from a picture for mobile using ML Kit built-in model. `Built-in Model` | [Demo](https://github.com/tucan9389/TextRecognition-MLKit) | [Reference](https://firebase.google.com/docs/ml-kit/ios/recognize-text)
+* **TextDetection** - Detecting text using Vision built-in model in real-time. `Built-in Model` | [Demo](https://github.com/tucan9389/TextDetection-CoreML) | [Reference](https://developer.apple.com/documentation/vision)
+* **TextRecognition** - Recognizing text using ML Kit built-in model in real-time. `Built-in Model` | [Demo](https://github.com/tucan9389/TextRecognition-MLKit) | [Reference](https://firebase.google.com/docs/ml-kit/ios/recognize-text)
 * **PhotoAssessment** - Photo Assessment using Core ML and Metal. [Download](https://github.com/yulingtianxia/PhotoAssessment/blob/master/PhotoAssessment-Sample/Sources/NIMANasnet.mlmodel) | [Demo](https://github.com/yulingtianxia/PhotoAssessment) | [Reference](https://arxiv.org/abs/1709.05424)
 * **PoseEstimation** - Estimating human pose from a picture for mobile. [Download](https://github.com/edvardHua/PoseEstimationForMobile/tree/master/release) | [Demo](https://github.com/tucan9389/PoseEstimation-CoreML) | [Reference](https://github.com/edvardHua/PoseEstimationForMobile)
 * **MobileNet** - Detects the dominant objects present in an image. [Download](https://github.com/hollance/MobileNet-CoreML/raw/master/MobileNet.mlmodel) | [Demo](https://github.com/hollance/MobileNet-CoreML) | [Reference](https://arxiv.org/abs/1704.04861)

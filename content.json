@@ -1,6 +1,21 @@
 {
     "types": ["image", "image-image", "text", "miscellaneous"],
     "models": [{
+               "name": "TextDetection",
+               "description": "Detecting text using Vision built-in model in real-time.",
+               "download_link": "",
+               "demo_link": "https://github.com/tucan9389/TextDetection-CoreML",
+               "reference_link": "https://developer.apple.com/documentation/vision",
+               "type": "image"
+               },{
+               "name": "TextRecognition",
+               "description": "Recognizing text using ML Kit built-in model in real-time.",
+               "download_link": "",
+               "demo_link": "https://github.com/tucan9389/TextRecognition-MLKit",
+               "reference_link": "https://firebase.google.com/docs/ml-kit/ios/recognize-text",
+               "type": "image"
+               },{
+                   
                "name": "PhotoAssessment",
                "description": "Photo Assessment using Core ML and Metal.",
                "download_link": "https://github.com/yulingtianxia/PhotoAssessment/blob/master/PhotoAssessment-Sample/Sources/NIMANasnet.mlmodel",

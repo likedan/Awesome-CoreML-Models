@@ -250,6 +250,14 @@
                "demo_link": "https://github.com/novinfard/profiler-sentiment-analysis/",
                "reference_link": "https://github.com/novinfard/profiler-sentiment-analysis/blob/master/dissertation-v6.pdf",
                "type": "text"
+               },
+                              {
+               "name": "BERT for Question answering",
+               "description": "Swift Core ML 3 implementation of BERT for Question answering",
+               "download_link": "https://github.com/huggingface/swift-coreml-transformers/blob/master/Resources/BERTSQUADFP16.mlmodel",
+               "demo_link": "https://github.com/huggingface/swift-coreml-transformers",
+               "reference_link": "https://github.com/huggingface/pytorch-pretrained-BERT",
+               "type": "text"
                }
     ]
 }

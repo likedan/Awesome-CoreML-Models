@@ -7,15 +7,7 @@
                "demo_link": "https://github.com/tucan9389/TextDetection-CoreML",
                "reference_link": "https://developer.apple.com/documentation/vision",
                "type": "image"
-               },{
-               "name": "TextRecognition",
-               "description": "Recognizing text using ML Kit built-in model in real-time.",
-               "download_link": "",
-               "demo_link": "https://github.com/tucan9389/TextRecognition-MLKit",
-               "reference_link": "https://firebase.google.com/docs/ml-kit/ios/recognize-text",
-               "type": "image"
-               },{
-                   
+               },{                   
                "name": "PhotoAssessment",
                "description": "Photo Assessment using Core ML and Metal.",
                "download_link": "https://github.com/yulingtianxia/PhotoAssessment/blob/master/PhotoAssessment-Sample/Sources/NIMANasnet.mlmodel",
@@ -251,13 +243,20 @@
                "reference_link": "https://github.com/novinfard/profiler-sentiment-analysis/blob/master/dissertation-v6.pdf",
                "type": "text"
                },
-                              {
+                {
                "name": "BERT for Question answering",
                "description": "Swift Core ML 3 implementation of BERT for Question answering",
                "download_link": "https://github.com/huggingface/swift-coreml-transformers/blob/master/Resources/BERTSQUADFP16.mlmodel",
                "demo_link": "https://github.com/huggingface/swift-coreml-transformers",
                "reference_link": "https://github.com/huggingface/pytorch-pretrained-BERT",
                "type": "text"
+               }, {
+                 "name": "TextRecognition (ML Kit)",
+               "description": "Recognizing text using ML Kit built-in model in real-time.",
+               "download_link": "",
+               "demo_link": "https://github.com/tucan9389/TextRecognition-MLKit",
+               "reference_link": "https://firebase.google.com/docs/ml-kit/ios/recognize-text",
+               "type": "image"
                }
     ]
 }

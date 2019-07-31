@@ -247,8 +247,15 @@
                "name": "BERT for Question answering",
                "description": "Swift Core ML 3 implementation of BERT for Question answering",
                "download_link": "https://github.com/huggingface/swift-coreml-transformers/blob/master/Resources/BERTSQUADFP16.mlmodel",
-               "demo_link": "https://github.com/huggingface/swift-coreml-transformers",
-               "reference_link": "https://github.com/huggingface/pytorch-pretrained-BERT",
+               "demo_link": "https://github.com/huggingface/swift-coreml-transformers#-bert",
+               "reference_link": "https://github.com/huggingface/pytorch-transformers#run_squadpy-fine-tuning-on-squad-for-question-answering",
+               "type": "text"
+               }, {
+               "name": "GPT-2",
+               "description": "OpenAI GPT-2 Text generation (Core ML 3)",
+               "download_link": "https://github.com/huggingface/swift-coreml-transformers/blob/master/Resources/gpt2-512.mlmodel",
+               "demo_link": "https://github.com/huggingface/swift-coreml-transformers#-gpt-2",
+               "reference_link": "https://github.com/huggingface/pytorch-transformers",
                "type": "text"
                }, {
                  "name": "TextRecognition (ML Kit)",

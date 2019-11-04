@@ -53,8 +53,6 @@ Recently, we've included visualization tools. And here's one [Netron](https://lu
 *Models that transform image.*
 * **HED** - Detect nested edges from a color image. [Download](https://github.com/s1ddok/HED-CoreML/blob/master/HED-CoreML/Models/HED_so.mlmodel) | [Demo](https://github.com/s1ddok/HED-CoreML) | [Reference](http://dl.acm.org/citation.cfm?id=2654889)
 * **AnimeScale2x** - Process a bicubic-scaled anime-style artwork [Download](https://github.com/imxieyi/waifu2x-ios/blob/master/waifu2x/models/anime_noise0_model.mlmodel) | [Demo](https://github.com/imxieyi/waifu2x-ios) | [Reference](https://arxiv.org/abs/1501.00092)
-* **Style Transfer** - Apply artistic styles to images. [Download](https://github.com/jcjohnson/fast-neural-style) | [Demo](https://github.com/jcjohnson/fast-neural-style) | [Reference](http://cs.stanford.edu/people/jcjohns/eccv16/)
-
 
 ## Text - Metadata/Text
 *Models that process text data*

@@ -183,14 +183,6 @@
                   "type": "image-image"
             },
             {
-                  "name": "Style Transfer",
-                  "description": "Apply artistic styles to images.",
-                  "download_link": "https://github.com/jcjohnson/fast-neural-style",
-                  "demo_link": "https://github.com/jcjohnson/fast-neural-style",
-                  "reference_link": "http://cs.stanford.edu/people/jcjohns/eccv16/",
-                  "type": "image-image"
-            },
-            {
                   "name": "Sentiment Polarity",
                   "description": "Predict positive or negative sentiments from sentences.",
                   "download_link": "https://github.com/cocoa-ai/SentimentCoreMLDemo/raw/master/SentimentPolarity/Resources/SentimentPolarity.mlmodel",

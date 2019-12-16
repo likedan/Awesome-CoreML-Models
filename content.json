@@ -285,6 +285,14 @@
                   "demo_link": "https://github.com/tucan9389/ImageSegmentation-CoreML",
                   "reference_link": "https://github.com/tensorflow/models/tree/master/research/deeplab",
                   "type": "image"
+            },
+            {
+                  "name": "DepthPrediction",
+                  "description": "Predict the depth from a single image.",
+                  "download_link": (https://developer.apple.com/machine-learning/models/),
+                  "demo_link": "https://github.com/tucan9389/DepthPrediction-CoreML",
+                  "reference_link": "https://github.com/iro-cp/FCRN-DepthPrediction",
+                  "type": "image"
             }
       ]
 }

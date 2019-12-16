@@ -269,14 +269,22 @@
                   "demo_link": "https://github.com/tucan9389/TextRecognition-MLKit",
                   "reference_link": "https://firebase.google.com/docs/ml-kit/ios/recognize-text",
                   "type": "image"
-            }
-                 {
+            },
+            {
                   "name": "ESC-10",
                   "description": "Recognize sounds from the ESC-10 sound dataset.",
                   "download_link": (https://github.com/narner/ESC10-CoreML/blob/master/CreateML%20Project%20And%20Dataset/ESC-10%20Sound%20Classifier.mlproj/Models/ESC-10%20Sound%20Classifier.mlmodel),
                   "demo_link": "https://github.com/narner/ESC10-CoreML/tree/master/ECS10-CoreML-Demo",
                   "reference_link": "https://nicholas-arner.squarespace.com/blog/2019/10/29/classification-of-sound-files-on-ios-with-the-soundanalysis-framework",
                   "type": "miscellaneous"
+            },
+            {
+                  "name": "ImageSegmentation",
+                  "description": "Segment the pixels of a camera frame or image into a predefined set of classes.",
+                  "download_link": (https://developer.apple.com/machine-learning/models/),
+                  "demo_link": "https://github.com/tucan9389/ImageSegmentation-CoreML",
+                  "reference_link": "https://github.com/tensorflow/models/tree/master/research/deeplab",
+                  "type": "image"
             }
       ]
 }

@@ -293,6 +293,14 @@
                   "demo_link": "https://github.com/tucan9389/DepthPrediction-CoreML",
                   "reference_link": "https://github.com/iro-cp/FCRN-DepthPrediction",
                   "type": "image"
+            },
+            {
+                  "name": "ChordSuggester",
+                  "description": "Predicts the most likely next chord based on the entered Chord Progression.",
+                  "download_link": "https://github.com/carlosmbe/Mac-CoreML-Chord-Suggester/blob/main/MLChordSuggester.mlpackage.zip",
+                  "demo_link": "https://github.com/carlosmbe/Mac-CoreML-Chord-Suggester",
+                  "reference_link": "https://medium.com/@huanlui/chordsuggester-i-3a1261d4ea9e",
+                  "type": "miscellaneous"
             }
       ]
 }

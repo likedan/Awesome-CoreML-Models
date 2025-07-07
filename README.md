@@ -16,7 +16,7 @@ We've put up the largest collection of machine learning models in Core ML format
 
 If you've converted a Core ML model, feel free to submit a [pull request](https://github.com/likedan/Awesome-CoreML-Models/compare).
 
-Recently, we've included visualization tools. And here's one [Netron](https://lutzroeder.github.io/Netron).
+Recently, we've included visualization tools. And here's one [Netron](https://github.com/lutzroeder/netron).
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
@@ -78,7 +78,7 @@ Recently, we've included visualization tools. And here's one [Netron](https://lu
 
 # Visualization Tools
 *Tools that help visualize CoreML Models*
-* [Netron](https://lutzroeder.github.io/Netron)
+* [Netron](https://github.com/lutzroeder/netron)
 
 # Supported formats
 *List of model formats that could be converted to Core ML with examples*

@@ -71,6 +71,8 @@ Recently, we've included visualization tools. And here's one [Netron](https://lu
 * **ChordSuggester** - Predicts the most likely next chord based on the entered Chord Progression. [Download](https://github.com/carlosmbe/Mac-CoreML-Chord-Suggester/blob/main/MLChordSuggester.mlpackage.zip) | [Demo](https://github.com/carlosmbe/Mac-CoreML-Chord-Suggester/tree/main) | [Reference](https://medium.com/@huanlui/chordsuggester-i-3a1261d4ea9e)
 
 ## Speech Processing
+* **Text-to-Speech (TTS)** – A Swift library for on-device text-to-speech synthesis using FastPitch and HiFiGAN models.  
+  [Download](https://github.com/Otosaku/OtosakuTTS-iOS/releases) | [Demo](https://github.com/Otosaku/OtosakuTTS-iOS/tree/main/Example) | [Reference](https://github.com/Otosaku/OtosakuTTS-iOS)
 * **Streaming ASR** – Real-time streaming speech recognition engine for iOS. Uses Fast Conformer + CTC, runs fully on device.  
   [Download](https://github.com/Otosaku/OtosakuStreamingASR-iOS/releases) | [Demo](https://github.com/Otosaku/OtosakuStreamingASR-iOS) | [Reference](https://github.com/Otosaku/OtosakuStreamingASR-iOS)
 * **Keyword Spotting (KWS)** – On-device keyword spotting engine using lightweight CRNN architecture, optimized for mobile devices.  

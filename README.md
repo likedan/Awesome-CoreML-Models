@@ -64,6 +64,10 @@ Recently, we've included visualization tools. And here's one [Netron](https://lu
 * **Personality Detection** - Predict personality based on user documents (sentences). [Download](https://github.com/novinfard/profiler-sentiment-analysis/tree/master/ios_app/ProfilerSA/ML%20Models) | [Demo](https://github.com/novinfard/profiler-sentiment-analysis/) | [Reference](https://github.com/novinfard/profiler-sentiment-analysis/blob/master/dissertation-v6.pdf)
 * **BERT for Question answering** - Swift Core ML 3 implementation of BERT for Question answering [Download](https://github.com/huggingface/swift-coreml-transformers/blob/master/Resources/BERTSQUADFP16.mlmodel) | [Demo](https://github.com/huggingface/swift-coreml-transformers#-bert) | [Reference](https://github.com/huggingface/pytorch-transformers#run_squadpy-fine-tuning-on-squad-for-question-answering)
 * **GPT-2** - OpenAI GPT-2 Text generation (Core ML 3) [Download](https://github.com/huggingface/swift-coreml-transformers/blob/master/Resources/gpt2-512.mlmodel) | [Demo](https://github.com/huggingface/swift-coreml-transformers#-gpt-2) | [Reference](https://github.com/huggingface/pytorch-transformers)
+*  **AllMiniLML6V2-coreml** – CoreML-converted version of the all-MiniLM-L6-v2 embedding model for text embeddings.  
+  [Download](https://github.com/Abhishek6353/AllMiniLML6V2-coreml/releases) | [Demo](https://github.com/Abhishek6353/AllMiniLML6V2-coreml) | [Reference](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
+
+
 ## Miscellaneous
 * **Exermote** - Predicts the exercise, when iPhone is worn on right upper arm. [Download](https://github.com/Lausbert/Exermote/tree/master/ExermoteInference) | [Demo](https://github.com/Lausbert/Exermote/tree/master/ExermoteInference) | [Reference](http://lausbert.com/2017/08/03/exermote/)
 * **GestureAI** - Recommend an artist based on given location and genre. [Download](https://goo.gl/avdMjD) | [Demo](https://github.com/akimach/GestureAI-CoreML-iOS) | [Reference](https://github.com/akimach/GestureAI-iOS/tree/master/GestureAI)

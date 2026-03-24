@@ -25,6 +25,7 @@ Recently, we've included visualization tools. And here's one [Netron](https://lu
 
 ## Image - Metadata/Text
 *Models that take image data as input and output useful information about the image.*
+- [DailyVox](https://getdailyvox.com) - Voice diary app using Apple's NaturalLanguage (Core ML-based) for on-device sentiment analysis and entity recognition. ([App Store](https://apps.apple.com/app/id6760454642))
 * **TextDetection** - Detecting text using Vision built-in model in real-time. [Download]() | [Demo](https://github.com/tucan9389/TextDetection-CoreML) | [Reference](https://developer.apple.com/documentation/vision)
 * **PhotoAssessment** - Photo Assessment using Core ML and Metal. [Download](https://github.com/yulingtianxia/PhotoAssessment/blob/master/PhotoAssessment-Sample/Sources/NIMANasnet.mlmodel) | [Demo](https://github.com/yulingtianxia/PhotoAssessment) | [Reference](https://arxiv.org/abs/1709.05424)
 * **PoseEstimation** - Estimating human pose from a picture for mobile. [Download](https://github.com/edvardHua/PoseEstimationForMobile/tree/master/release) | [Demo](https://github.com/tucan9389/PoseEstimation-CoreML) | [Reference](https://github.com/edvardHua/PoseEstimationForMobile)

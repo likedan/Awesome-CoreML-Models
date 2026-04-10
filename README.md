@@ -80,6 +80,7 @@ Recently, we've included visualization tools. And here's one [Netron](https://lu
 *Tools that help visualize CoreML Models*
 * [Netron](https://lutzroeder.github.io/Netron)
 
+- [Gitstar](https://dev.gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=likedan_Awesome-CoreML-Models) - Follow developers on GitHub and see what repos they star. Like a social feed for repo discovery.
 # Supported formats
 *List of model formats that could be converted to Core ML with examples*
 * [Caffe](https://apple.github.io/coremltools/generated/coremltools.converters.caffe.convert.html)

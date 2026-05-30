@@ -54,6 +54,7 @@ Recently, we've included visualization tools. And here's one [Netron](https://lu
 *Models that transform images.*
 * **HED** - Detect nested edges from a color image. [Download](https://github.com/s1ddok/HED-CoreML/blob/master/HED-CoreML/Models/HED_so.mlmodel) | [Demo](https://github.com/s1ddok/HED-CoreML) | [Reference](http://dl.acm.org/citation.cfm?id=2654889)
 * **AnimeScale2x** - Process a bicubic-scaled anime-style artwork [Download](https://github.com/imxieyi/waifu2x-ios/blob/master/waifu2x/models/anime_noise0_model.mlmodel) | [Demo](https://github.com/imxieyi/waifu2x-ios) | [Reference](https://arxiv.org/abs/1501.00092)
+* **PiperSR** - 2x super-resolution designed to run entirely on the Apple Neural Engine (453K params, 928 KB, real-time video). [Download](https://github.com/ModelPiper/PiperSR/tree/master/PiperSR_2x.mlpackage) | [Demo](https://github.com/ModelPiper/PiperSR) | [Reference](https://github.com/ModelPiper/PiperSR/blob/master/MODEL_CARD.md)
 
 ## Text - Metadata/Text
 *Models that process text data*

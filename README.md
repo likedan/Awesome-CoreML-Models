@@ -76,6 +76,10 @@ Recently, we've included visualization tools. And here's one [Netron](https://lu
 * **Keyword Spotting (KWS)** – On-device keyword spotting engine using lightweight CRNN architecture, optimized for mobile devices.  
   [Download](https://github.com/Otosaku/OtosakuKWS-iOS/releases) | [Demo](https://github.com/Otosaku/OtosakuKWS-iOS) | [Reference](https://github.com/Otosaku/OtosakuKWS-iOS)
 
+## Physical AI & Scientific Simulation
+*Foundation neural operators for physics, fluid dynamics, and climate modeling.*
+* **CoreML-PhysicsNeMo** - 8 NVIDIA Physical AI foundation models (Transolver, FourCastNet v2, StormCast, CorrDiff, MeshGraphNet) running natively on the 16-Core Apple Neural Engine (38 TOPS) with zero CPU fallbacks. Real-time Navier-Stokes CFD at 98.9 FPS (~7W) on M3 Max. [Download](https://huggingface.co/alexpospekhov/coreml-physicsnemo) | [Demo](https://github.com/alexpospekhov/coreml-physicsnemo) | [Reference](https://github.com/NVIDIA/physicsnemo)
+
 # Visualization Tools
 *Tools that help visualize CoreML Models*
 * [Netron](https://lutzroeder.github.io/Netron)

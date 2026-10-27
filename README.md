@@ -75,6 +75,8 @@ Recently, we've included visualization tools. And here's one [Netron](https://lu
   [Download](https://github.com/Otosaku/OtosakuStreamingASR-iOS/releases) | [Demo](https://github.com/Otosaku/OtosakuStreamingASR-iOS) | [Reference](https://github.com/Otosaku/OtosakuStreamingASR-iOS)
 * **Keyword Spotting (KWS)** – On-device keyword spotting engine using lightweight CRNN architecture, optimized for mobile devices.  
   [Download](https://github.com/Otosaku/OtosakuKWS-iOS/releases) | [Demo](https://github.com/Otosaku/OtosakuKWS-iOS) | [Reference](https://github.com/Otosaku/OtosakuKWS-iOS)
+* **Voz** - On-device speech recognition with word timestamps that runs entirely on the Neural Engine. 10 minutes of audio in 2s on an iPhone.  
+  [Download](https://huggingface.co/desert-ant-labs/voz) | [Demo](https://desertant.com/models/voz/) | [Reference](https://github.com/Desert-Ant-Labs/desert-ant-core)
 
 # Visualization Tools
 *Tools that help visualize CoreML Models*
